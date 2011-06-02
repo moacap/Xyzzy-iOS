@@ -8,6 +8,7 @@
 
 #import "XyzzyAppDelegate.h"
 #import "XyzzyView.h"
+#import "PhotoViewController.h"
 
 @implementation XyzzyAppDelegate
 
@@ -20,15 +21,29 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-   
+
+	/*
     XyzzyView *view = [[XyzzyView alloc] initWithFrame:[window frame]];
 
     [window addSubview:view];
     
     [view release];
     
+	[window makeKeyAndVisible];
+    */
+	
+	[[TTURLRequestQueue mainQueue] setMaxContentLength:0];
+	
+    TTNavigator *navigator = [TTNavigator navigator];
+    navigator.window = window;
+	
+    TTURLMap *map = navigator.URLMap;
+    [map from:@"tt://appPhotos" toSharedViewController:[PhotoViewController class]];
+	
+    [navigator openURLAction:[TTURLAction actionWithURLPath:@"tt://appPhotos"]];
+	
     [window makeKeyAndVisible];
-    
+	
     return YES;
 }
 
