@@ -184,6 +184,7 @@
 				GCC_PREFIX_HEADER = Xyzzy_Prefix.pch;
 				INFOPLIST_FILE = "Xyzzy-Info.plist";
 				PRODUCT_NAME = Xyzzy;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
