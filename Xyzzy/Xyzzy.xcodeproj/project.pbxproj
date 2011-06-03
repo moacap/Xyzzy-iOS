@@ -32,6 +32,12 @@
 		D41696D313984F2400FAD640 /* rpg_calc_small.png in Resources */ = {isa = PBXBuildFile; fileRef = D41696CB13984F2400FAD640 /* rpg_calc_small.png */; };
 		D41696D413984F2400FAD640 /* rpg_calc_thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = D41696CC13984F2400FAD640 /* rpg_calc_thumb.png */; };
 		D41696DB13984F6800FAD640 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41696DA13984F6800FAD640 /* PhotoViewController.m */; };
+		D4169821139861D700FAD640 /* flower01-320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D416981D139861D700FAD640 /* flower01-320.jpg */; };
+		D4169822139861D700FAD640 /* flower02-320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D416981E139861D700FAD640 /* flower02-320.jpg */; };
+		D4169823139861D700FAD640 /* flower03-320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D416981F139861D700FAD640 /* flower03-320.jpg */; };
+		D4169824139861D700FAD640 /* flower04-320.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4169820139861D700FAD640 /* flower04-320.jpg */; };
+		D416987A1398646600FAD640 /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41698791398646600FAD640 /* ThumbsViewController.m */; };
+		D41698A71398660300FAD640 /* ThumbsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D41698A61398660300FAD640 /* ThumbsDataSource.m */; };
 		D451A40613984B1400B3645E /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = D451A40513984B1400B3645E /* Photo.m */; };
 		D451A40F13984B5500B3645E /* PhotoSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D451A40E13984B5500B3645E /* PhotoSet.m */; };
 /* End PBXBuildFile section */
@@ -218,6 +224,14 @@
 		D41696CC13984F2400FAD640 /* rpg_calc_thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rpg_calc_thumb.png; sourceTree = "<group>"; };
 		D41696D913984F6800FAD640 /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
 		D41696DA13984F6800FAD640 /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		D416981D139861D700FAD640 /* flower01-320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flower01-320.jpg"; sourceTree = "<group>"; };
+		D416981E139861D700FAD640 /* flower02-320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flower02-320.jpg"; sourceTree = "<group>"; };
+		D416981F139861D700FAD640 /* flower03-320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flower03-320.jpg"; sourceTree = "<group>"; };
+		D4169820139861D700FAD640 /* flower04-320.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "flower04-320.jpg"; sourceTree = "<group>"; };
+		D41698771398646600FAD640 /* ThumbsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsDataSource.h; sourceTree = "<group>"; };
+		D41698781398646600FAD640 /* ThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsViewController.h; sourceTree = "<group>"; };
+		D41698791398646600FAD640 /* ThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsViewController.m; sourceTree = "<group>"; };
+		D41698A61398660300FAD640 /* ThumbsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsDataSource.m; sourceTree = "<group>"; };
 		D451A40413984B1400B3645E /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
 		D451A40513984B1400B3645E /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
 		D451A40D13984B5500B3645E /* PhotoSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSet.h; sourceTree = "<group>"; };
@@ -268,7 +282,11 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				D41698771398646600FAD640 /* ThumbsDataSource.h */,
+				D41698781398646600FAD640 /* ThumbsViewController.h */,
+				D41698791398646600FAD640 /* ThumbsViewController.m */,
 				D41696D913984F6800FAD640 /* PhotoViewController.h */,
+				D41698A61398660300FAD640 /* ThumbsDataSource.m */,
 				D41696DA13984F6800FAD640 /* PhotoViewController.m */,
 				D451A40D13984B5500B3645E /* PhotoSet.h */,
 				D451A40E13984B5500B3645E /* PhotoSet.m */,
@@ -295,6 +313,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D416981D139861D700FAD640 /* flower01-320.jpg */,
+				D416981E139861D700FAD640 /* flower02-320.jpg */,
+				D416981F139861D700FAD640 /* flower03-320.jpg */,
+				D4169820139861D700FAD640 /* flower04-320.jpg */,
 				D41696C513984F2400FAD640 /* instant_poetry_small.png */,
 				D41696C613984F2400FAD640 /* instant_poetry_thumb.png */,
 				D41696C713984F2400FAD640 /* level_me_up_small.png */,
@@ -588,6 +610,10 @@
 				D41696D213984F2400FAD640 /* math_ninja_thumb.png in Resources */,
 				D41696D313984F2400FAD640 /* rpg_calc_small.png in Resources */,
 				D41696D413984F2400FAD640 /* rpg_calc_thumb.png in Resources */,
+				D4169821139861D700FAD640 /* flower01-320.jpg in Resources */,
+				D4169822139861D700FAD640 /* flower02-320.jpg in Resources */,
+				D4169823139861D700FAD640 /* flower03-320.jpg in Resources */,
+				D4169824139861D700FAD640 /* flower04-320.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,6 +630,8 @@
 				D451A40613984B1400B3645E /* Photo.m in Sources */,
 				D451A40F13984B5500B3645E /* PhotoSet.m in Sources */,
 				D41696DB13984F6800FAD640 /* PhotoViewController.m in Sources */,
+				D416987A1398646600FAD640 /* ThumbsViewController.m in Sources */,
+				D41698A71398660300FAD640 /* ThumbsDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

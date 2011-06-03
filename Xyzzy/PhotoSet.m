@@ -60,22 +60,22 @@ static PhotoSet *samplePhotoSet = nil;
             Photo *mathNinja = [[[Photo alloc] initWithCaption:@"Math Ninja" 
                                                       urlLarge:@"http://d1xzuxjlafny7l.cloudfront.net/downloads/math_ninja_large.jpg" 
                                                       urlSmall:@"bundle://math_ninja_small.png" 
-                                                      urlThumb:@"bundle://math_ninja_thumb.png" 
+                                                      urlThumb:@"bundle://flower01-320.jpg" 
                                                           size:CGSizeMake(1024, 768)] autorelease];
             Photo *instantPoetry = [[[Photo alloc] initWithCaption:@"Instant Poetry" 
                                                           urlLarge:@"http://d1xzuxjlafny7l.cloudfront.net/downloads/instant_poetry_large.jpg" 
                                                           urlSmall:@"bundle://instant_poetry_small.png" 
-                                                          urlThumb:@"bundle://instant_poetry_thumb.png" 
+                                                          urlThumb:@"bundle://flower01-320.jpg" 
                                                               size:CGSizeMake(1024, 748)] autorelease];
             Photo *rpgCalc = [[[Photo alloc] initWithCaption:@"RPG Calc" 
                                                     urlLarge:@"http://d1xzuxjlafny7l.cloudfront.net/downloads/rpg_calc_large.jpg" 
                                                     urlSmall:@"bundle://rpg_calc_small.png" 
-                                                    urlThumb:@"bundle://rpg_calc_thumb.png" 
+                                                    urlThumb:@"bundle://flower01-320.jpg" 
                                                         size:CGSizeMake(640, 920)] autorelease];
             Photo *levelMeUp = [[[Photo alloc] initWithCaption:@"Level Me Up" 
                                                       urlLarge:@"http://d1xzuxjlafny7l.cloudfront.net/downloads/level_me_up_large.jpg" 
                                                       urlSmall:@"bundle://level_me_up_small.png" 
-                                                      urlThumb:@"bundle://level_me_up_thumb.png" 
+                                                      urlThumb:@"bundle://flower01-320.jpg" 
                                                           size:CGSizeMake(1024, 768)] autorelease];
             NSArray *photos = [NSArray arrayWithObjects:mathNinja, instantPoetry, rpgCalc, levelMeUp, nil];
             samplePhotoSet = [[self alloc] initWithTitle:@"My Apps" photos:photos];
