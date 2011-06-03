@@ -263,6 +263,16 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D451A40413984B1400B3645E /* Photo.h */,
+				D451A40513984B1400B3645E /* Photo.m */,
+				D41698771398646600FAD640 /* ThumbsDataSource.h */,
+				D41698781398646600FAD640 /* ThumbsViewController.h */,
+				D41698791398646600FAD640 /* ThumbsViewController.m */,
+				D41696D913984F6800FAD640 /* PhotoViewController.h */,
+				D41698A61398660300FAD640 /* ThumbsDataSource.m */,
+				D41696DA13984F6800FAD640 /* PhotoViewController.m */,
+				D451A40D13984B5500B3645E /* PhotoSet.h */,
+				D451A40E13984B5500B3645E /* PhotoSet.m */,
 				1D3623240D0F684500981E51 /* XyzzyAppDelegate.h */,
 				1D3623250D0F684500981E51 /* XyzzyAppDelegate.m */,
 				D40DF44C134532EF007198F2 /* XyzzyView.h */,
@@ -282,21 +292,11 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				D41698771398646600FAD640 /* ThumbsDataSource.h */,
-				D41698781398646600FAD640 /* ThumbsViewController.h */,
-				D41698791398646600FAD640 /* ThumbsViewController.m */,
-				D41696D913984F6800FAD640 /* PhotoViewController.h */,
-				D41698A61398660300FAD640 /* ThumbsDataSource.m */,
-				D41696DA13984F6800FAD640 /* PhotoViewController.m */,
-				D451A40D13984B5500B3645E /* PhotoSet.h */,
-				D451A40E13984B5500B3645E /* PhotoSet.m */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				D451A40413984B1400B3645E /* Photo.h */,
-				D451A40513984B1400B3645E /* Photo.m */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -717,7 +717,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -731,7 +731,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};

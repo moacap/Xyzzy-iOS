@@ -14,21 +14,9 @@
 // limitations under the License.
 //
 
-// UI
-#import "Three20UI/TTTableViewDataSource.h"
+#import "Three20UI/TTThumbsViewController.h"
 
-@protocol TTPhotoSource;
-@protocol TTThumbsTableViewCellDelegate;
-
-@interface ThumbsDataSource : TTTableViewDataSource {
-  id<TTPhotoSource>                 _photoSource;
-  id<TTThumbsTableViewCellDelegate> _delegate;
+@interface ThumbsViewController : TTThumbsViewController {
 }
-
-@property (nonatomic, retain) id<TTPhotoSource>                 photoSource;
-@property (nonatomic, assign) id<TTThumbsTableViewCellDelegate> delegate;
-
-- (id)initWithPhotoSource: (id<TTPhotoSource>)photoSource
-                 delegate: (id<TTThumbsTableViewCellDelegate>)delegate;
 
 @end
