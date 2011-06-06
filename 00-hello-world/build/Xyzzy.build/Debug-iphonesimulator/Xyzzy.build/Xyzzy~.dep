@@ -1,0 +1,10 @@
+f179dfde127df8ec2193521c9c695591 cc6948b2ca66539799987b427c7bd6f4 ffffffffffffffffffffffffffffffff 204 /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app
+000000004ded5b8300000000000020fe 6cfb75802381c774345b0765243940d6 ffffffffffffffffffffffffffffffff 982 /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/MainWindow.nib
+00000000000000000000000000000000 cdb91c998c355673e82187ac607dbb43 ffffffffffffffffffffffffffffffff 8 /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/PkgInfo
+00000000000000000000000000000000 cdb91c998c355673e82187ac607dbb43 ffffffffffffffffffffffffffffffff 583 /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Info.plist
+00000000000000000000000000000000 cf834aecafeb3024e62d71ca44184c92 ffffffffffffffffffffffffffffffff 102 /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app.dSYM
+80a1d64b7e33cb7d0c3c320e62fbb8fd 1d237c150222af6619f46777daab8d44 ffffffffffffffffffffffffffffffff 16948 /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Xyzzy
+c15f3310c790faa22f9d13517057a622 1c63d930856fe5ef75e8ddc8a898dbbf ffffffffffffffffffffffffffffffff 36208 /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/XyzzyView.o
+c15f3310c61fe0cc2f9d13517057a6f1 85b04ef588be4a92d6ac302d422a2656 ffffffffffffffffffffffffffffffff 47248 /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/XyzzyAppDelegate.o
+c15f33108a7da1212f9d13517057a5f7 d82d729ef81eadda80e5ccbaf9fc4560 ffffffffffffffffffffffffffffffff 6320 /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/main.o
+000000004dd557cf0000000000001d18 c15f3310c627ec802f9d13517057b047 ffffffffffffffffffffffffffffffff 15215632 /var/folders/bx/bx4Vk2InGxWG27mQmdvei++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Xyzzy_Prefix-egmdclvumyngfgcdvlxtyrdzlotb/Xyzzy_Prefix.pch.gch

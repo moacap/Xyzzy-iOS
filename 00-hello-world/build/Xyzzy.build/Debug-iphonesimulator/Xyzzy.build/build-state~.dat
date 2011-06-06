@@ -1,0 +1,238 @@
+TXyzzy
+v7
+r0
+t329094017.466768
+cCheck dependencies
+cProcessInfoPlistFile /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Info.plist Xyzzy-Info.plist
+cCompileXIB /Users/rob/develop/Xyzzy-iOS/00-hello-world/MainWindow.xib
+cProcessPCH /var/folders/bx/bx4Vk2InGxWG27mQmdvei++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Xyzzy_Prefix-egmdclvumyngfgcdvlxtyrdzlotb/Xyzzy_Prefix.pch.gch Xyzzy_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/main.o /Users/rob/develop/Xyzzy-iOS/00-hello-world/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/XyzzyAppDelegate.o /Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/XyzzyView.o /Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Xyzzy normal i386
+cGenerateDSYMFile /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app.dSYM /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Xyzzy
+cTouch /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyAppDelegate.h
+c000000004DED5B83000000000000013F
+t1307401091
+s319
+i<UIKit/UIKit.h>
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyAppDelegate.m
+c000000004DED5B830000000000000A59
+t1307401091
+s2649
+i"XyzzyAppDelegate.h"
+i"XyzzyView.h"
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyView.h
+c000000004DED5B8300000000000000C8
+t1307401091
+s200
+i<UIKit/UIKit.h>
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyView.m
+c000000004DED5B830000000000000278
+t1307401091
+s632
+i"XyzzyView.h"
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/MainWindow.xib
+c000000004DED5B8300000000000020FE
+t1307401091
+s8446
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/Xyzzy_Prefix.pch
+c000000004DED5B8300000000000000B3
+t1307401091
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app
+t1307401217
+s204
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app.dSYM
+t1307401217
+s102
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Info.plist
+t1307401215
+s583
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/MainWindow.nib
+t1307401215
+s982
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/PkgInfo
+t1307401215
+s8
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Xyzzy
+t1307401217
+s16948
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/Xyzzy.LinkFileList
+c000000004DED5BFF0000000000000182
+t1307401215
+s386
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/XyzzyAppDelegate.o
+t1307401216
+s47248
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/XyzzyView.o
+t1307401216
+s36208
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/main.o
+t1307401216
+s6320
+
+N/Users/rob/develop/Xyzzy-iOS/00-hello-world/main.m
+c000000004DED5B830000000000000165
+t1307401091
+s357
+i<UIKit/UIKit.h>
+
+N/var/folders/bx/bx4Vk2InGxWG27mQmdvei++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Xyzzy_Prefix-egmdclvumyngfgcdvlxtyrdzlotb/Xyzzy_Prefix.pch.gch
+t1307401216
+s15215632
+
+NXyzzy-Info.plist
+c000000004DED5B83000000000000038D
+t1307401091
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329094014#329094015#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/XyzzyAppDelegate.o /Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329094016.548315
+e329094016.774976
+r1
+xCompileC
+xbuild/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/XyzzyAppDelegate.o
+x/Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyAppDelegate.m329094016#329094016#0(0"0(0#0#70"/Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyAppDelegate.m8606081280#2152"    cd /Users/rob/develop/Xyzzy-iOS/00-hello-world    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/rob/bin:/Users/rob/.bin:/Users/rob/bin/pl:/Users/rob/bin/py:/Users/rob/bin/rb:/Users/rob/perl5/perlbrew/bin:/Users/rob/perl5/perlbrew/perls/perl-5.12.2/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-generated-files.hmap -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-own-target-headers.hmap -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-all-target-headers.hmap -iquote /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-project-headers.hmap -F/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/include -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/DerivedSources/i386 -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/DerivedSources -include /var/folders/bx/bx4Vk2InGxWG27mQmdvei++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Xyzzy_Prefix-egmdclvumyngfgcdvlxtyrdzlotb/Xyzzy_Prefix.pch -c /Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyAppDelegate.m -o /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/XyzzyAppDelegate.o0#
+
+CCompileC build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/XyzzyView.o /Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329094016.755330
+e329094016.821777
+r1
+xCompileC
+xbuild/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/XyzzyView.o
+x/Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyView.m329094016#329094016#0(0"0(0#0#63"/Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyView.m8605302304#2138"    cd /Users/rob/develop/Xyzzy-iOS/00-hello-world    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/rob/bin:/Users/rob/.bin:/Users/rob/bin/pl:/Users/rob/bin/py:/Users/rob/bin/rb:/Users/rob/perl5/perlbrew/bin:/Users/rob/perl5/perlbrew/perls/perl-5.12.2/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-generated-files.hmap -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-own-target-headers.hmap -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-all-target-headers.hmap -iquote /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-project-headers.hmap -F/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/include -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/DerivedSources/i386 -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/DerivedSources -include /var/folders/bx/bx4Vk2InGxWG27mQmdvei++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Xyzzy_Prefix-egmdclvumyngfgcdvlxtyrdzlotb/Xyzzy_Prefix.pch -c /Users/rob/develop/Xyzzy-iOS/00-hello-world/Classes/XyzzyView.m -o /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/XyzzyView.o0#
+
+CCompileC build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/main.o /Users/rob/develop/Xyzzy-iOS/00-hello-world/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s329094016.546652
+e329094016.755154
+r1
+xCompileC
+xbuild/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/main.o
+x/Users/rob/develop/Xyzzy-iOS/00-hello-world/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/rob/develop/Xyzzy-iOS/00-hello-world/main.m329094016#329094016#0(0"0(0#0#50"/Users/rob/develop/Xyzzy-iOS/00-hello-world/main.m8601385248#2120"    cd /Users/rob/develop/Xyzzy-iOS/00-hello-world    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/rob/bin:/Users/rob/.bin:/Users/rob/bin/pl:/Users/rob/bin/py:/Users/rob/bin/rb:/Users/rob/perl5/perlbrew/bin:/Users/rob/perl5/perlbrew/perls/perl-5.12.2/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-generated-files.hmap -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-own-target-headers.hmap -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-all-target-headers.hmap -iquote /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-project-headers.hmap -F/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/include -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/DerivedSources/i386 -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/DerivedSources -include /var/folders/bx/bx4Vk2InGxWG27mQmdvei++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Xyzzy_Prefix-egmdclvumyngfgcdvlxtyrdzlotb/Xyzzy_Prefix.pch -c /Users/rob/develop/Xyzzy-iOS/00-hello-world/main.m -o /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/rob/develop/Xyzzy-iOS/00-hello-world/MainWindow.xib
+s329094015.094304
+e329094015.541975
+r1
+xCompileXIB
+x/Users/rob/develop/Xyzzy-iOS/00-hello-world/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib329094015#329094015#0(0"0(0#0#58"/Users/rob/develop/Xyzzy-iOS/00-hello-world/MainWindow.xib8605356736#774"    cd /Users/rob/develop/Xyzzy-iOS/00-hello-world    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/rob/bin:/Users/rob/.bin:/Users/rob/bin/pl:/Users/rob/bin/py:/Users/rob/bin/rb:/Users/rob/perl5/perlbrew/bin:/Users/rob/perl5/perlbrew/perls/perl-5.12.2/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/MainWindow.nib /Users/rob/develop/Xyzzy-iOS/00-hello-world/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CGenerateDSYMFile /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app.dSYM /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Xyzzy
+s329094017.368935
+e329094017.419344
+r1
+xGenerateDSYMFile
+x/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app.dSYM
+x/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Xyzzy
+lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/Xyzzy.app.dSYM build/Debug-iphonesimulator/Xyzzy.app/Xyzzy329094017#329094017#0(0"0(0#0#87"/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Xyzzy8605283904#583"    cd /Users/rob/develop/Xyzzy-iOS/00-hello-world    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/rob/bin:/Users/rob/.bin:/Users/rob/bin/pl:/Users/rob/bin/py:/Users/rob/bin/rb:/Users/rob/perl5/perlbrew/bin:/Users/rob/perl5/perlbrew/perls/perl-5.12.2/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/usr/bin/dsymutil /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Xyzzy -o /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app.dSYM0#
+
+CLd /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Xyzzy normal i386
+s329094016.821861
+e329094017.368825
+r1
+xLd
+x/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Xyzzy
+xnormal
+xi386
+lSLF07#2@92"Link /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Xyzzy329094016#329094017#0(0"0(0#0#0"8604738912#1106"    cd /Users/rob/develop/Xyzzy-iOS/00-hello-world    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/rob/bin:/Users/rob/.bin:/Users/rob/bin/pl:/Users/rob/bin/py:/Users/rob/bin/rb:/Users/rob/perl5/perlbrew/bin:/Users/rob/perl5/perlbrew/perls/perl-5.12.2/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator -F/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator -filelist /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Objects-normal/i386/Xyzzy.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Xyzzy0#
+
+CProcessInfoPlistFile /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Info.plist Xyzzy-Info.plist
+s329094015.052555
+e329094015.093849
+r1
+xProcessInfoPlistFile
+x/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Info.plist
+xXyzzy-Info.plist
+lSLF07#2@24"Process Xyzzy-Info.plist329094015#329094015#0(0"0(0#0#60"/Users/rob/develop/Xyzzy-iOS/00-hello-world/Xyzzy-Info.plist28992425118793828#679"    cd /Users/rob/develop/Xyzzy-iOS/00-hello-world    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/rob/bin:/Users/rob/.bin:/Users/rob/bin/pl:/Users/rob/bin/py:/Users/rob/bin/rb:/Users/rob/perl5/perlbrew/bin:/Users/rob/perl5/perlbrew/perls/perl-5.12.2/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    builtin-infoPlistUtility Xyzzy-Info.plist -genpkginfo /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app/Info.plist0#
+
+CProcessPCH /var/folders/bx/bx4Vk2InGxWG27mQmdvei++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Xyzzy_Prefix-egmdclvumyngfgcdvlxtyrdzlotb/Xyzzy_Prefix.pch.gch Xyzzy_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s329094015.542223
+e329094016.546518
+r1
+xProcessPCH
+x/var/folders/bx/bx4Vk2InGxWG27mQmdvei++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Xyzzy_Prefix-egmdclvumyngfgcdvlxtyrdzlotb/Xyzzy_Prefix.pch.gch
+xXyzzy_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile Xyzzy_Prefix.pch329094015#329094016#0(0"0(0#0#60"/Users/rob/develop/Xyzzy-iOS/00-hello-world/Xyzzy_Prefix.pch8605293664#2009"    cd /Users/rob/develop/Xyzzy-iOS/00-hello-world    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/rob/bin:/Users/rob/.bin:/Users/rob/bin/pl:/Users/rob/bin/py:/Users/rob/bin/rb:/Users/rob/perl5/perlbrew/bin:/Users/rob/perl5/perlbrew/perls/perl-5.12.2/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-generated-files.hmap -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-own-target-headers.hmap -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-all-target-headers.hmap -iquote /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/Xyzzy-project-headers.hmap -F/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/include -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/DerivedSources/i386 -I/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Xyzzy.build/Debug-iphonesimulator/Xyzzy.build/DerivedSources -c /Users/rob/develop/Xyzzy-iOS/00-hello-world/Xyzzy_Prefix.pch -o /var/folders/bx/bx4Vk2InGxWG27mQmdvei++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Xyzzy_Prefix-egmdclvumyngfgcdvlxtyrdzlotb/Xyzzy_Prefix.pch.gch0#
+
+CTouch /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app
+s329094017.419423
+e329094017.466709
+r1
+xTouch
+x/Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app
+lSLF07#2@87"Touch /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app329094017#329094017#0(0"0(0#0#0"8604812960#477"    cd /Users/rob/develop/Xyzzy-iOS/00-hello-world    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/rob/bin:/Users/rob/.bin:/Users/rob/bin/pl:/Users/rob/bin/py:/Users/rob/bin/rb:/Users/rob/perl5/perlbrew/bin:/Users/rob/perl5/perlbrew/perls/perl-5.12.2/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/touch -c /Users/rob/develop/Xyzzy-iOS/00-hello-world/build/Debug-iphonesimulator/Xyzzy.app0#
+
