@@ -23,6 +23,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
     // Override point for customization after application launch.
 
+    [MyHTTPConnection setMOC:[self managedObjectContext]];
 	[DDLog addLogger:[DDTTYLogger sharedInstance]];
 	
 	// Create server using our custom MyHTTPServer class
