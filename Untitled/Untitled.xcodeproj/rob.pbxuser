@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* UntitledAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 429}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 863}";
+		};
+	};
+	1D3623250D0F684500981E51 /* UntitledAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 2756}}";
+			sepNavSelRange = "{1200, 0}";
+			sepNavVisRange = "{573, 797}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Untitled */ = {
+		activeExec = 0;
+		executables = (
+			D4B4F4D913A806A90050FE93 /* Untitled */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D4B4F4D913A806A90050FE93 /* Untitled */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Untitled */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Untitled */,
+		);
+		codeSenseManager = D4B4F4F513A806AF0050FE93 /* Code sense */;
+		executables = (
+			D4B4F4D913A806A90050FE93 /* Untitled */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					211,
+					20,
+					111,
+					111,
+					41,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 329780493;
+			PBXWorkspaceStateSaveDate = 329780493;
+		};
+		perUserProjectItems = {
+			D443964C13A80D2C00894753 /* XCBuildMessageTextBookmark */ = D443964C13A80D2C00894753 /* XCBuildMessageTextBookmark */;
+			D443964D13A80D2C00894753 /* PBXTextBookmark */ = D443964D13A80D2C00894753 /* PBXTextBookmark */;
+			D443965013A80D2D00894753 /* XCBuildMessageTextBookmark */ = D443965013A80D2D00894753 /* XCBuildMessageTextBookmark */;
+			D443965113A80D2D00894753 /* PBXTextBookmark */ = D443965113A80D2D00894753 /* PBXTextBookmark */;
+			D443965813A80D4200894753 /* PBXTextBookmark */ = D443965813A80D4200894753 /* PBXTextBookmark */;
+			D443965913A80D4F00894753 /* PBXTextBookmark */ = D443965913A80D4F00894753 /* PBXTextBookmark */;
+			D443966713A80E2200894753 /* PBXTextBookmark */ = D443966713A80E2200894753 /* PBXTextBookmark */;
+			D443966813A80E2200894753 /* PBXTextBookmark */ = D443966813A80E2200894753 /* PBXTextBookmark */;
+			D443966913A80E2200894753 /* XCBuildMessageTextBookmark */ = D443966913A80E2200894753 /* XCBuildMessageTextBookmark */;
+			D443966A13A80E2200894753 /* PBXTextBookmark */ = D443966A13A80E2200894753 /* PBXTextBookmark */;
+			D4B4F6BB13A80CF80050FE93 = D4B4F6BB13A80CF80050FE93 /* PBXTextBookmark */;
+			D4B4F6BD13A80CF80050FE93 = D4B4F6BD13A80CF80050FE93 /* PBXTextBookmark */;
+			D4B4F6BE13A80CF80050FE93 = D4B4F6BE13A80CF80050FE93 /* PBXTextBookmark */;
+			D4B4F6BF13A80CF80050FE93 = D4B4F6BF13A80CF80050FE93 /* PBXTextBookmark */;
+			D4B4F6C113A80CF80050FE93 = D4B4F6C113A80CF80050FE93 /* PBXTextBookmark */;
+		};
+		sourceControlManager = D4B4F4F413A806AF0050FE93 /* Source Control */;
+		userBookmarkGroup = D4B4F4FC13A806FF0050FE93 /* PBXBookmarkGroup */;
+		userBuildSettings = {
+		};
+	};
+	D443964C13A80D2C00894753 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'ddLogLevel' undeclared (first use in this function)";
+		fRef = 1D3623250D0F684500981E51 /* UntitledAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 43;
+		rType = 1;
+	};
+	D443964D13A80D2C00894753 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UntitledAppDelegate.m */;
+		name = "UntitledAppDelegate.m: 43";
+		rLen = 0;
+		rLoc = 1314;
+		rType = 0;
+		vrLen = 593;
+		vrLoc = 704;
+	};
+	D443965013A80D2D00894753 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'MyHTTPConnection' undeclared (first use in this function)";
+		fRef = 1D3623250D0F684500981E51 /* UntitledAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 38;
+		rType = 1;
+	};
+	D443965113A80D2D00894753 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UntitledAppDelegate.m */;
+		name = "UntitledAppDelegate.m: 38";
+		rLen = 0;
+		rLoc = 1200;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 602;
+	};
+	D443965813A80D4200894753 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UntitledAppDelegate.m */;
+		name = "UntitledAppDelegate.m: 39";
+		rLen = 0;
+		rLoc = 1200;
+		rType = 0;
+		vrLen = 787;
+		vrLoc = 597;
+	};
+	D443965913A80D4F00894753 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UntitledAppDelegate.m */;
+		name = "UntitledAppDelegate.m: 39";
+		rLen = 0;
+		rLoc = 1200;
+		rType = 0;
+		vrLen = 803;
+		vrLoc = 597;
+	};
+	D443965B13A80D6A00894753 /* MyHttpConnection.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 271}}";
+			sepNavSelRange = "{113, 0}";
+			sepNavVisRange = "{0, 113}";
+		};
+	};
+	D443965C13A80D6A00894753 /* MyHttpConnection.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 1196}}";
+			sepNavSelRange = "{2231, 0}";
+			sepNavVisRange = "{529, 1493}";
+		};
+	};
+	D443966713A80E2200894753 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D443965B13A80D6A00894753 /* MyHttpConnection.h */;
+		name = "MyHttpConnection.h: 7";
+		rLen = 0;
+		rLoc = 113;
+		rType = 0;
+		vrLen = 113;
+		vrLoc = 0;
+	};
+	D443966813A80E2200894753 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D443965C13A80D6A00894753 /* MyHttpConnection.m */;
+		name = "MyHttpConnection.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 520;
+		vrLoc = 283;
+	};
+	D443966913A80E2200894753 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'MyHTTPConnection' undeclared (first use in this function)";
+		fRef = 1D3623250D0F684500981E51 /* UntitledAppDelegate.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 38;
+		rType = 1;
+	};
+	D443966A13A80E2200894753 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UntitledAppDelegate.m */;
+		name = "UntitledAppDelegate.m: 39";
+		rLen = 0;
+		rLoc = 1200;
+		rType = 0;
+		vrLen = 797;
+		vrLoc = 573;
+	};
+	D4B4F4D913A806A90050FE93 /* Untitled */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Untitled;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D4B4F4F413A806AF0050FE93 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D4B4F4F513A806AF0050FE93 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D4B4F4FC13A806FF0050FE93 /* PBXBookmarkGroup */ = {
+		isa = PBXBookmarkGroup;
+		children = (
+			D4B4F5A813A809CD0050FE93 /* PBXBookmark */,
+			D4B4F5A913A809CD0050FE93 /* PBXBookmark */,
+			D4B4F5AA13A809CD0050FE93 /* PBXBookmark */,
+			D4B4F5AB13A809CD0050FE93 /* PBXBookmark */,
+			D4B4F5AC13A809CD0050FE93 /* PBXBookmark */,
+			D4B4F5AD13A809CD0050FE93 /* PBXBookmark */,
+			D4B4F5AE13A809CD0050FE93 /* PBXBookmark */,
+			D4B4F5AF13A809CD0050FE93 /* PBXBookmark */,
+			D4B4F5B013A809CD0050FE93 /* PBXBookmark */,
+			D4B4F5B113A809CD0050FE93 /* PBXBookmark */,
+			D4B4F5B213A809CD0050FE93 /* PBXBookmark */,
+			D4B4F5B313A809CD0050FE93 /* PBXBookmark */,
+		);
+		name = Root;
+	};
+	D4B4F57E13A8098C0050FE93 /* HTTPAuthenticationRequest.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HTTPAuthenticationRequest.h;
+		path = "/Users/rob/develop/Xyzzy-iOS/iOSl/cocoahttpserver/HTTPAuthenticationRequest.h";
+		sourceTree = "<absolute>";
+	};
+	D4B4F57F13A8098C0050FE93 /* HTTPAuthenticationRequest.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HTTPAuthenticationRequest.m;
+		path = "/Users/rob/develop/Xyzzy-iOS/iOSl/cocoahttpserver/HTTPAuthenticationRequest.m";
+		sourceTree = "<absolute>";
+	};
+	D4B4F58013A8098C0050FE93 /* HTTPConnection.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HTTPConnection.h;
+		path = "/Users/rob/develop/Xyzzy-iOS/iOSl/cocoahttpserver/HTTPConnection.h";
+		sourceTree = "<absolute>";
+	};
+	D4B4F58113A8098C0050FE93 /* HTTPConnection.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HTTPConnection.m;
+		path = "/Users/rob/develop/Xyzzy-iOS/iOSl/cocoahttpserver/HTTPConnection.m";
+		sourceTree = "<absolute>";
+	};
+	D4B4F58213A8098C0050FE93 /* HTTPLogging.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HTTPLogging.h;
+		path = "/Users/rob/develop/Xyzzy-iOS/iOSl/cocoahttpserver/HTTPLogging.h";
+		sourceTree = "<absolute>";
+	};
+	D4B4F58313A8098C0050FE93 /* HTTPMessage.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HTTPMessage.h;
+		path = "/Users/rob/develop/Xyzzy-iOS/iOSl/cocoahttpserver/HTTPMessage.h";
+		sourceTree = "<absolute>";
+	};
+	D4B4F58413A8098C0050FE93 /* HTTPMessage.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HTTPMessage.m;
+		path = "/Users/rob/develop/Xyzzy-iOS/iOSl/cocoahttpserver/HTTPMessage.m";
+		sourceTree = "<absolute>";
+	};
+	D4B4F58513A8098C0050FE93 /* HTTPResponse.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HTTPResponse.h;
+		path = "/Users/rob/develop/Xyzzy-iOS/iOSl/cocoahttpserver/HTTPResponse.h";
+		sourceTree = "<absolute>";
+	};
+	D4B4F58613A8098C0050FE93 /* HTTPServer.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = HTTPServer.h;
+		path = "/Users/rob/develop/Xyzzy-iOS/iOSl/cocoahttpserver/HTTPServer.h";
+		sourceTree = "<absolute>";
+	};
+	D4B4F58713A8098C0050FE93 /* HTTPServer.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HTTPServer.m;
+		path = "/Users/rob/develop/Xyzzy-iOS/iOSl/cocoahttpserver/HTTPServer.m";
+		sourceTree = "<absolute>";
+	};
+	D4B4F59313A8098C0050FE93 /* WebSocket.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = WebSocket.h;
+		path = "/Users/rob/develop/Xyzzy-iOS/iOSl/cocoahttpserver/WebSocket.h";
+		sourceTree = "<absolute>";
+	};
+	D4B4F59413A8098C0050FE93 /* WebSocket.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = WebSocket.m;
+		path = "/Users/rob/develop/Xyzzy-iOS/iOSl/cocoahttpserver/WebSocket.m";
+		sourceTree = "<absolute>";
+	};
+	D4B4F5A813A809CD0050FE93 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D4B4F57E13A8098C0050FE93 /* HTTPAuthenticationRequest.h */;
+	};
+	D4B4F5A913A809CD0050FE93 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D4B4F57F13A8098C0050FE93 /* HTTPAuthenticationRequest.m */;
+	};
+	D4B4F5AA13A809CD0050FE93 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D4B4F58013A8098C0050FE93 /* HTTPConnection.h */;
+	};
+	D4B4F5AB13A809CD0050FE93 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D4B4F58113A8098C0050FE93 /* HTTPConnection.m */;
+	};
+	D4B4F5AC13A809CD0050FE93 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D4B4F58213A8098C0050FE93 /* HTTPLogging.h */;
+	};
+	D4B4F5AD13A809CD0050FE93 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D4B4F58313A8098C0050FE93 /* HTTPMessage.h */;
+	};
+	D4B4F5AE13A809CD0050FE93 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D4B4F58413A8098C0050FE93 /* HTTPMessage.m */;
+	};
+	D4B4F5AF13A809CD0050FE93 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D4B4F58513A8098C0050FE93 /* HTTPResponse.h */;
+	};
+	D4B4F5B013A809CD0050FE93 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D4B4F58613A8098C0050FE93 /* HTTPServer.h */;
+	};
+	D4B4F5B113A809CD0050FE93 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D4B4F58713A8098C0050FE93 /* HTTPServer.m */;
+	};
+	D4B4F5B213A809CD0050FE93 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D4B4F59313A8098C0050FE93 /* WebSocket.h */;
+	};
+	D4B4F5B313A809CD0050FE93 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D4B4F59413A8098C0050FE93 /* WebSocket.m */;
+	};
+	D4B4F6BB13A80CF80050FE93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D4B4F6BC13A80CF80050FE93 /* ReceptacleSandboxAppDelegate.m */;
+		name = "ReceptacleSandboxAppDelegate.m: 26";
+		rLen = 1150;
+		rLoc = 583;
+		rType = 0;
+		vrLen = 1186;
+		vrLoc = 345;
+	};
+	D4B4F6BC13A80CF80050FE93 /* ReceptacleSandboxAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = ReceptacleSandboxAppDelegate.m;
+		path = "/Users/rob/develop/Xyzzy-iOS/ReceptacleSandbox/Classes/ReceptacleSandboxAppDelegate.m";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 2847}}";
+			sepNavSelRange = "{366, 48}";
+			sepNavVisRange = "{0, 1624}";
+		};
+	};
+	D4B4F6BD13A80CF80050FE93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* UntitledAppDelegate.h */;
+		name = "UntitledAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 863;
+		vrLoc = 0;
+	};
+	D4B4F6BE13A80CF80050FE93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* UntitledAppDelegate.m */;
+		name = "UntitledAppDelegate.m: 43";
+		rLen = 0;
+		rLoc = 1314;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 0;
+	};
+	D4B4F6BF13A80CF80050FE93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D4B4F6C013A80CF80050FE93 /* ReceptacleSandboxAppDelegate.h */;
+		name = "ReceptacleSandboxAppDelegate.h: 11";
+		rLen = 64;
+		rLoc = 217;
+		rType = 0;
+		vrLen = 912;
+		vrLoc = 0;
+	};
+	D4B4F6C013A80CF80050FE93 /* ReceptacleSandboxAppDelegate.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ReceptacleSandboxAppDelegate.h;
+		path = "/Users/rob/develop/Xyzzy-iOS/ReceptacleSandbox/Classes/ReceptacleSandboxAppDelegate.h";
+		sourceTree = "<absolute>";
+	};
+	D4B4F6C113A80CF80050FE93 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D4B4F6C213A80CF80050FE93 /* ReceptacleSandboxAppDelegate.h */;
+		name = "ReceptacleSandboxAppDelegate.h: 14";
+		rLen = 1;
+		rLoc = 282;
+		rType = 0;
+		vrLen = 898;
+		vrLoc = 63;
+	};
+	D4B4F6C213A80CF80050FE93 /* ReceptacleSandboxAppDelegate.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ReceptacleSandboxAppDelegate.h;
+		path = "/Users/rob/develop/Xyzzy-iOS/ReceptacleSandbox/Classes/ReceptacleSandboxAppDelegate.h";
+		sourceTree = "<absolute>";
+	};
+}
