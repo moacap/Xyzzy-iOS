@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -266,6 +264,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
+								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>28193054112F811F00ECF9B4</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
@@ -274,9 +273,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>4</integer>
-									<integer>3</integer>
+									<integer>9</integer>
+									<integer>1</integer>
+									<integer>0</integer>
+								</array>
+								<array>
+									<integer>10</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -311,12 +314,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Untitled.xcdatamodel</string>
+								<string>CackResponse.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,17 +329,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Untitled.xcdatamodel</string>
+										<string>CackResponse.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D44396CD13A81A4A00894753</string>
+										<string>D44396FD13A827C600894753</string>
 										<key>history</key>
 										<array>
 											<string>D443966713A80E2200894753</string>
 											<string>D443966813A80E2200894753</string>
 											<string>D443967813A8163400894753</string>
-											<string>D44396CC13A81A4A00894753</string>
+											<string>D44396DD13A824D800894753</string>
+											<string>D44396DE13A824D800894753</string>
+											<string>D44396DF13A824D800894753</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -532,7 +539,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>D44396CE13A81A4A00894753</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>D443964E13A80D2C00894753</string>

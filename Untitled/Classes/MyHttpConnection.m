@@ -3,6 +3,7 @@
 #import "HTTPDataResponse.h"
 #import "DDNumber.h"
 #import "HTTPLogging.h"
+#import "CackResponse.h"
 
 // Log levels : off, error, warn, info, verbose
 // Other flags: trace
@@ -79,7 +80,9 @@ static NSManagedObjectContext *managedObjectContext_;
 	}        
 	[fetchRequest release];
 
-	return [[[HTTPDataResponse alloc] initWithData:[message dataUsingEncoding:NSUTF8StringEncoding]] autorelease];
+    CackResponse *response = [[[CackResponse alloc] initWithData:[message dataUsingEncoding:NSUTF8StringEncoding]] autorelease];
+    response.status = 404;
+    return response;
 	
 	//if ([method isEqualToString:@"POST"] && [path isEqualToString:@"/post.html"])
 	//{
