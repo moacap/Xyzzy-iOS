@@ -293,6 +293,9 @@
 			D44396F913A8276300894753 /* PBXTextBookmark */ = D44396F913A8276300894753 /* PBXTextBookmark */;
 			D44396FA13A8276600894753 /* PBXTextBookmark */ = D44396FA13A8276600894753 /* PBXTextBookmark */;
 			D44396FD13A827C600894753 /* PBXTextBookmark */ = D44396FD13A827C600894753 /* PBXTextBookmark */;
+			D443970B13A8324500894753 /* PBXTextBookmark */ = D443970B13A8324500894753 /* PBXTextBookmark */;
+			D443970C13A8324500894753 /* XCBuildMessageTextBookmark */ = D443970C13A8324500894753 /* XCBuildMessageTextBookmark */;
+			D443970D13A8324500894753 /* PBXTextBookmark */ = D443970D13A8324500894753 /* PBXTextBookmark */;
 			D4B4F6BB13A80CF80050FE93 = D4B4F6BB13A80CF80050FE93 /* PBXTextBookmark */;
 			D4B4F6BD13A80CF80050FE93 = D4B4F6BD13A80CF80050FE93 /* PBXTextBookmark */;
 			D4B4F6BE13A80CF80050FE93 = D4B4F6BE13A80CF80050FE93 /* PBXTextBookmark */;
@@ -363,6 +366,12 @@
 		vrLoc = 597;
 	};
 	D443965B13A80D6A00894753 /* MyHttpConnection.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = MyHttpConnection.h;
+		path = "/Users/rob/develop/Xyzzy-iOS/Untitled/Classes/MyHttpConnection.h";
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1219, 404}}";
 			sepNavSelRange = "{199, 0}";
@@ -370,10 +379,16 @@
 		};
 	};
 	D443965C13A80D6A00894753 /* MyHttpConnection.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = MyHttpConnection.m;
+		path = "/Users/rob/develop/Xyzzy-iOS/Untitled/Classes/MyHttpConnection.m";
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 1651}}";
-			sepNavSelRange = "{4028, 0}";
-			sepNavVisRange = "{1769, 1240}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1664}}";
+			sepNavSelRange = "{4097, 0}";
+			sepNavVisRange = "{1845, 1242}";
 		};
 	};
 	D443966713A80E2200894753 /* PBXTextBookmark */ = {
@@ -3799,7 +3814,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1011, 286}}";
 			sepNavSelRange = "{322, 0}";
-			sepNavVisRange = "{0, 317}";
+			sepNavVisRange = "{0, 322}";
 		};
 	};
 	D44396DD13A824D800894753 /* XDModelBookmark */ = {
@@ -4103,6 +4118,49 @@
 		rType = 0;
 		vrLen = 317;
 		vrLoc = 0;
+	};
+	D44396FE13A830D100894753 /* CackHTTPConnection.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 273}}";
+			sepNavSelRange = "{352, 0}";
+			sepNavVisRange = "{0, 352}";
+		};
+	};
+	D44396FF13A830D100894753 /* CackHTTPConnection.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1794}}";
+			sepNavSelRange = "{3860, 0}";
+			sepNavVisRange = "{145, 675}";
+		};
+	};
+	D443970B13A8324500894753 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D443965C13A80D6A00894753 /* MyHttpConnection.m */;
+		name = "MyHttpConnection.m: 134";
+		rLen = 0;
+		rLoc = 4097;
+		rType = 0;
+		vrLen = 1242;
+		vrLoc = 1845;
+	};
+	D443970C13A8324500894753 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'httpLogLevel' undeclared (first use in this function)";
+		fRef = D44396FF13A830D100894753 /* CackHTTPConnection.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 29;
+		rType = 1;
+	};
+	D443970D13A8324500894753 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D44396FF13A830D100894753 /* CackHTTPConnection.m */;
+		name = "CackHTTPConnection.m: 124";
+		rLen = 0;
+		rLoc = 3860;
+		rType = 0;
+		vrLen = 675;
+		vrLoc = 145;
 	};
 	D4B4F4D913A806A90050FE93 /* Untitled */ = {
 		isa = PBXExecutable;

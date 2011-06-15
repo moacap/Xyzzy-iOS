@@ -7,7 +7,7 @@
 //
 
 #import "UntitledAppDelegate.h"
-#import "MyHttpConnection.h"
+#import "CackHTTPConnection.h"
 
 @implementation UntitledAppDelegate
 
@@ -23,7 +23,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
     // Override point for customization after application launch.
 
-    [MyHTTPConnection setMOC:[self managedObjectContext]];
+    [CackHTTPConnection setMOC:[self managedObjectContext]];
 	[DDLog addLogger:[DDTTYLogger sharedInstance]];
 	
 	// Create server using our custom MyHTTPServer class
@@ -37,7 +37,7 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 	// Technologies like Bonjour allow clients to dynamically discover the server's port at runtime.
 	// However, for easy testing you may want force a certain port so you can just hit the refresh button.
 	[httpServer setPort:12345];
-	[httpServer setConnectionClass:[MyHTTPConnection class]];
+	[httpServer setConnectionClass:[CackHTTPConnection class]];
 	
 	
 	NSError *error;

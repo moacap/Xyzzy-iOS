@@ -1,22 +1,23 @@
-#import "MyHTTPConnection.h"
+//
+//  CackHTTPConnection.m
+//  Untitled
+//
+//  Created by Broken Rim on 6/14/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import "CackHTTPConnection.h"
+
 #import "HTTPMessage.h"
 #import "HTTPDataResponse.h"
 #import "DDNumber.h"
 #import "HTTPLogging.h"
 #import "CackResponse.h"
 
-// Log levels : off, error, warn, info, verbose
-// Other flags: trace
 static const int httpLogLevel = HTTP_LOG_LEVEL_WARN; // | HTTP_LOG_FLAG_TRACE;
-
-
-/**
- * All we have to do is override appropriate methods in HTTPConnection.
- **/
-
-@implementation MyHTTPConnection
-
 static NSManagedObjectContext *managedObjectContext_;
+
+@implementation CackHTTPConnection
 
 + (void)setMOC:(NSManagedObjectContext *)value {
     managedObjectContext_ = value;
@@ -48,7 +49,7 @@ static NSManagedObjectContext *managedObjectContext_;
 - (NSObject<HTTPResponse> *)httpResponseForMethod:(NSString *)method URI:(NSString *)path {
 	HTTPLogTrace();
 	
-    NSManagedObjectContext *context = [MyHTTPConnection getMOC];
+    NSManagedObjectContext *context = [[self class] getMOC];
     NSError *error;
 
 	NSDictionary *params = [self parseGetParams];
@@ -117,17 +118,6 @@ static NSManagedObjectContext *managedObjectContext_;
 	// }
 	
 	return [super httpResponseForMethod:method URI:path];
-}
-
-
-- (void)processBodyData:(NSData *)postDataChunk {
-	HTTPLogTrace();
-
-	BOOL result = [request appendData:postDataChunk];
-	if (!result)
-	{
-		HTTPLogError(@"%@[%p]: %@ - Couldn't append bytes!", THIS_FILE, self, THIS_METHOD);
-	}
 }
 
 @end
