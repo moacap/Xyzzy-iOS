@@ -262,6 +262,10 @@
 			D46D39A613A8479F005674C7 /* XCBuildMessageTextBookmark */ = D46D39A613A8479F005674C7 /* XCBuildMessageTextBookmark */;
 			D46D39A713A8479F005674C7 /* PBXTextBookmark */ = D46D39A713A8479F005674C7 /* PBXTextBookmark */;
 			D46D39A813A847A1005674C7 /* PBXTextBookmark */ = D46D39A813A847A1005674C7 /* PBXTextBookmark */;
+			D46D39AB13A848B9005674C7 /* PBXTextBookmark */ = D46D39AB13A848B9005674C7 /* PBXTextBookmark */;
+			D46D39AC13A848C9005674C7 /* PBXTextBookmark */ = D46D39AC13A848C9005674C7 /* PBXTextBookmark */;
+			D46D39AD13A848CA005674C7 /* PBXTextBookmark */ = D46D39AD13A848CA005674C7 /* PBXTextBookmark */;
+			D46D39B013A848FA005674C7 /* PBXTextBookmark */ = D46D39B013A848FA005674C7 /* PBXTextBookmark */;
 		};
 		sourceControlManager = D4B4F4F413A806AF0050FE93 /* Source Control */;
 		userBookmarkGroup = D4B4F4FC13A806FF0050FE93 /* PBXBookmarkGroup */;
@@ -309,9 +313,9 @@
 	};
 	D44396FE13A830D100894753 /* CackHTTPConnection.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1011, 429}}";
-			sepNavSelRange = "{715, 0}";
-			sepNavVisRange = "{231, 479}";
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 455}}";
+			sepNavSelRange = "{728, 0}";
+			sepNavVisRange = "{263, 460}";
 		};
 	};
 	D44396FF13A830D100894753 /* CackHTTPConnection.m */ = {
@@ -508,6 +512,46 @@
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 231;
+	};
+	D46D39AB13A848B9005674C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D44396FE13A830D100894753 /* CackHTTPConnection.h */;
+		name = "CackHTTPConnection.h: 36";
+		rLen = 0;
+		rLoc = 767;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 263;
+	};
+	D46D39AC13A848C9005674C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D44396FF13A830D100894753 /* CackHTTPConnection.m */;
+		name = "CackHTTPConnection.m: 136";
+		rLen = 0;
+		rLoc = 3856;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 82;
+	};
+	D46D39AD13A848CA005674C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D44396FE13A830D100894753 /* CackHTTPConnection.h */;
+		name = "CackHTTPConnection.h: 36";
+		rLen = 0;
+		rLoc = 767;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 263;
+	};
+	D46D39B013A848FA005674C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D44396FE13A830D100894753 /* CackHTTPConnection.h */;
+		name = "CackHTTPConnection.h: 35";
+		rLen = 0;
+		rLoc = 728;
+		rType = 0;
+		vrLen = 460;
+		vrLoc = 263;
 	};
 	D4B4F4D913A806A90050FE93 /* Untitled */ = {
 		isa = PBXExecutable;

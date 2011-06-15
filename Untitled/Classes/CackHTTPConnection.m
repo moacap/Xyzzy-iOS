@@ -57,6 +57,7 @@ static void(^run_)(void);
     NSError *error;
     NSString *method = rq.method;
     NSString *path = rq.path;
+
     if ( [[self class] getRun] != nil ) {
         [[self class] getRun]();
     }
