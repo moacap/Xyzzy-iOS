@@ -16,27 +16,18 @@
 #import "CackResponse.h"
 
 static const int httpLogLevel = HTTP_LOG_LEVEL_WARN; // | HTTP_LOG_FLAG_TRACE;
-static NSManagedObjectContext *managedObjectContext_;
-static void(^run_)(void);
+static CackRun run_;
 
 @implementation CackHTTPConnection
 
 @synthesize response = response_;
 
-+ (void)setRun:(void(^)(void))value {
++ (void)setRun:(CackRun)value {
     run_ = [value copy];
 }
 
-+ (void (^)(void)) getRun {
++ (CackRun) getRun {
     return run_;
-}
-
-+ (void)setMOC:(NSManagedObjectContext *)value {
-    managedObjectContext_ = value;
-}
-
-+ (NSManagedObjectContext *) getMOC {
-    return managedObjectContext_;
 }
 
 - (void) respond:( NSInteger )status {
@@ -51,61 +42,21 @@ static void(^run_)(void);
     self.response = response;
 }
 
-- (void) run:( CackRequest* )rq {
-
-    //NSManagedObjectContext *context = [[self class] getMOC];
-    //NSError *error;
-    //NSString *method = rq.method;
-    //NSString *path = rq.path;
+- (void) run:( CackRequest* )request_ {
 
     if ( [[self class] getRun] != nil ) {
-        [[self class] getRun](rq, self);
+        [[self class] getRun](request_, self);
     }
-
-	//NSDictionary *params = [self parseGetParams];
-    //NSString *message = [[[NSString alloc] initWithFormat:@"Hello, World (%@): %@", path, [params valueForKey:@"xyzzy"]] autorelease];
-
-	//if (YES || [method isEqualToString:@"POST"]) {
-	//    if ([path isEqualToString:@"/issue/create"]) {
-            
-    //        NSManagedObject *issue = [NSEntityDescription
-    //                                        insertNewObjectForEntityForName:@"Issue" 
-    //                                        inManagedObjectContext:context];
-    //        //[issue setValue:[params valueForKey:@"uuid"] forKey:@"uuid"];
-    //        [issue setValue:@"Derpity" forKey:@"uuid"];
-    //        [issue setValue:[params valueForKey:@"description"] forKey:@"description_"];
-
-    //        if (![context save:&error]) {
-    //            NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
-    //        }
-
-    //        [self respond:200 withString:@"Create!"];
-    //    }
-    //    else {
-    //        [self respond:200 withString:message];
-    //    }
-    //}
-	
-	//NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-	//NSEntityDescription *entity = [NSEntityDescription 
-	//                               entityForName:@"Issue" inManagedObjectContext:context];
-	//[fetchRequest setEntity:entity];
-	//NSArray *result = [context executeFetchRequest:fetchRequest error:&error];
-	//for (NSManagedObject *_issue in result) {
-	//    NSLog(@"issue: %@ %@", [_issue valueForKey:@"uuid"], [_issue valueForKey:@"description_"]);
-	//}        
-	//[fetchRequest release];
-
 }
 
 - (NSObject<HTTPResponse> *)httpResponseForMethod:(NSString *)method URI:(NSString *)path {
 	HTTPLogTrace();
 	
-    CackRequest *rq = [[[CackRequest alloc] init] autorelease];
-    rq.method = method;
-    rq.path = path;
+    CackRequest *request_ = [[[CackRequest alloc] init] autorelease];
+    request_.method = method;
+    request_.path = path;
 
-    [self run:rq];
+    [self run:request_];
 
     if ( self.response != nil ) {
         return self.response;

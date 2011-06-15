@@ -23,9 +23,6 @@ typedef void (^CackRun)(CackRequest*, CackHTTPConnection*);
 + (void)setRun:(CackRun)value;
 + (CackRun) getRun;
 
-+ (void)setMOC:(NSManagedObjectContext *)value;
-+ (NSManagedObjectContext *) getMOC;
-
 - (void) run:( CackRequest* )request;
 - (void) respond:( NSInteger )status;
 - (void) respond:( NSInteger )status withString:( NSString* )string;
