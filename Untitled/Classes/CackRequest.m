@@ -11,4 +11,7 @@
 
 @implementation CackRequest
 
+@synthesize method;
+@synthesize path;
+
 @end

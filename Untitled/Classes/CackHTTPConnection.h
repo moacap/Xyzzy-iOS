@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HTTPConnection.h"
+#import "CackRequest.h"
 
 @interface CackHTTPConnection : HTTPConnection {
 
@@ -20,7 +21,8 @@
 + (void)setMOC:(NSManagedObjectContext *)value;
 + (NSManagedObjectContext *) getMOC;
 
-- (void) respond: ( NSInteger ) status;
-- (void) respond: ( NSInteger ) status withString: ( NSString* ) string;
+- (void) run:( CackRequest* )request;
+- (void) respond:( NSInteger )status;
+- (void) respond:( NSInteger )status withString:( NSString* )string;
 
 @end

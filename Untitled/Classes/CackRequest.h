@@ -11,6 +11,12 @@
 
 @interface CackRequest : NSObject {
 
+    NSString *method;
+    NSString *path;
+
 }
+
+@property (nonatomic, retain) NSString* method;
+@property (nonatomic, retain) NSString* path;
 
 @end

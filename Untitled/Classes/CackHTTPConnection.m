@@ -12,6 +12,7 @@
 #import "HTTPDataResponse.h"
 #import "DDNumber.h"
 #import "HTTPLogging.h"
+#import "CackRequest.h"
 #import "CackResponse.h"
 
 static const int httpLogLevel = HTTP_LOG_LEVEL_WARN; // | HTTP_LOG_FLAG_TRACE;
@@ -29,23 +30,24 @@ static NSManagedObjectContext *managedObjectContext_;
     return managedObjectContext_;
 }
 
-- (void) respond: ( NSInteger ) status {
+- (void) respond:( NSInteger )status {
     CackResponse *response = [[[CackResponse alloc] init] autorelease];
     response.status = status;
     self.response = response;
 }
 
-- (void) respond: ( NSInteger ) status withString: ( NSString* ) string {
+- (void) respond:( NSInteger )status withString:( NSString* )string {
     CackResponse *response = [[[CackResponse alloc] initWithData:[string dataUsingEncoding:NSUTF8StringEncoding]] autorelease];
     response.status = status;
     self.response = response;
 }
 
-- (NSObject<HTTPResponse> *)httpResponseForMethod:(NSString *)method URI:(NSString *)path {
-	HTTPLogTrace();
-	
+- (void) run:( CackRequest* )rq {
+
     NSManagedObjectContext *context = [[self class] getMOC];
     NSError *error;
+    NSString *method = rq.method;
+    NSString *path = rq.path;
 
 	NSDictionary *params = [self parseGetParams];
     NSString *message = [[[NSString alloc] initWithFormat:@"Hello, World (%@): %@", path, [params valueForKey:@"xyzzy"]] autorelease];
@@ -81,9 +83,17 @@ static NSManagedObjectContext *managedObjectContext_;
 	}        
 	[fetchRequest release];
 
-    //CackResponse *response = [[[CackResponse alloc] initWithData:[message dataUsingEncoding:NSUTF8StringEncoding]] autorelease];
-    //response.status = 404;
-    //return response;
+}
+
+- (NSObject<HTTPResponse> *)httpResponseForMethod:(NSString *)method URI:(NSString *)path {
+	HTTPLogTrace();
+	
+    CackRequest *rq = [[[CackRequest alloc] init] autorelease];
+    rq.method = method;
+    rq.path = path;
+
+    [self run:rq];
+
     if ( self.response != nil ) {
         return self.response;
     }
