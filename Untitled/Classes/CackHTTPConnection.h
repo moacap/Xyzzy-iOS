@@ -10,14 +10,13 @@
 #import "HTTPConnection.h"
 #import "CackRequest.h"
 
-typedef void (^CackRun)(void);
-
 @interface CackHTTPConnection : HTTPConnection {
 
     NSObject<HTTPResponse> *response_;
-    CackRun run_;
 
 }
+
+typedef void (^CackRun)(CackRequest*, CackHTTPConnection*);
 
 @property (nonatomic, retain) NSObject<HTTPResponse> *response;
 

@@ -24,7 +24,7 @@ static void(^run_)(void);
 @synthesize response = response_;
 
 + (void)setRun:(void(^)(void))value {
-    run_ = value;
+    run_ = [value copy];
 }
 
 + (void (^)(void)) getRun {
@@ -53,48 +53,48 @@ static void(^run_)(void);
 
 - (void) run:( CackRequest* )rq {
 
-    NSManagedObjectContext *context = [[self class] getMOC];
-    NSError *error;
-    NSString *method = rq.method;
-    NSString *path = rq.path;
+    //NSManagedObjectContext *context = [[self class] getMOC];
+    //NSError *error;
+    //NSString *method = rq.method;
+    //NSString *path = rq.path;
 
     if ( [[self class] getRun] != nil ) {
-        [[self class] getRun]();
+        [[self class] getRun](rq, self);
     }
 
-	NSDictionary *params = [self parseGetParams];
-    NSString *message = [[[NSString alloc] initWithFormat:@"Hello, World (%@): %@", path, [params valueForKey:@"xyzzy"]] autorelease];
+	//NSDictionary *params = [self parseGetParams];
+    //NSString *message = [[[NSString alloc] initWithFormat:@"Hello, World (%@): %@", path, [params valueForKey:@"xyzzy"]] autorelease];
 
-	if (YES || [method isEqualToString:@"POST"]) {
-	    if ([path isEqualToString:@"/issue/create"]) {
+	//if (YES || [method isEqualToString:@"POST"]) {
+	//    if ([path isEqualToString:@"/issue/create"]) {
             
-            NSManagedObject *issue = [NSEntityDescription
-                                            insertNewObjectForEntityForName:@"Issue" 
-                                            inManagedObjectContext:context];
-            //[issue setValue:[params valueForKey:@"uuid"] forKey:@"uuid"];
-            [issue setValue:@"Derpity" forKey:@"uuid"];
-            [issue setValue:[params valueForKey:@"description"] forKey:@"description_"];
+    //        NSManagedObject *issue = [NSEntityDescription
+    //                                        insertNewObjectForEntityForName:@"Issue" 
+    //                                        inManagedObjectContext:context];
+    //        //[issue setValue:[params valueForKey:@"uuid"] forKey:@"uuid"];
+    //        [issue setValue:@"Derpity" forKey:@"uuid"];
+    //        [issue setValue:[params valueForKey:@"description"] forKey:@"description_"];
 
-            if (![context save:&error]) {
-                NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
-            }
+    //        if (![context save:&error]) {
+    //            NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+    //        }
 
-            [self respond:200 withString:@"Create!"];
-        }
-        else {
-            [self respond:200 withString:message];
-        }
-    }
+    //        [self respond:200 withString:@"Create!"];
+    //    }
+    //    else {
+    //        [self respond:200 withString:message];
+    //    }
+    //}
 	
-	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
-	NSEntityDescription *entity = [NSEntityDescription 
-								   entityForName:@"Issue" inManagedObjectContext:context];
-	[fetchRequest setEntity:entity];
-	NSArray *result = [context executeFetchRequest:fetchRequest error:&error];
-	for (NSManagedObject *_issue in result) {
-		NSLog(@"issue: %@ %@", [_issue valueForKey:@"uuid"], [_issue valueForKey:@"description_"]);
-	}        
-	[fetchRequest release];
+	//NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+	//NSEntityDescription *entity = [NSEntityDescription 
+	//                               entityForName:@"Issue" inManagedObjectContext:context];
+	//[fetchRequest setEntity:entity];
+	//NSArray *result = [context executeFetchRequest:fetchRequest error:&error];
+	//for (NSManagedObject *_issue in result) {
+	//    NSLog(@"issue: %@ %@", [_issue valueForKey:@"uuid"], [_issue valueForKey:@"description_"]);
+	//}        
+	//[fetchRequest release];
 
 }
 

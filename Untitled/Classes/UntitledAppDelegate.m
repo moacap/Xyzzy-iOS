@@ -23,9 +23,55 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
     // Override point for customization after application launch.
 
-    [CackHTTPConnection setRun:^{
-        NSLog( @"Hello, World!" );
+    NSManagedObjectContext *context = [self managedObjectContext];
+    NSInteger derpity = 3;
+    NSLog( @"Hello, World: %d", derpity );
+    [CackHTTPConnection setRun:^( CackRequest *request, CackHTTPConnection *connection ){
+
+        NSLog( @"Hello, World: %@", [context class] );
+
+        NSError *error;
+        NSString *method = request.method;
+        NSString *path = request.path;
+
+        [connection respond:200 withString:@"Create!"];
+
+        //[connection respond:200 withString:@"Create!"];
+        //NSDictionary *params = [connection parseGetParams];
+        //NSString *message = [[[NSString alloc] initWithFormat:@"Hello, World (%@): %@", path, [params valueForKey:@"xyzzy"]] autorelease];
+
+        //if (YES || [method isEqualToString:@"POST"]) {
+        //    if ([path isEqualToString:@"/issue/create"]) {
+                
+        //        NSManagedObject *issue = [NSEntityDescription
+        //                                        insertNewObjectForEntityForName:@"Issue" 
+        //                                        inManagedObjectContext:context];
+        //        //[issue setValue:[params valueForKey:@"uuid"] forKey:@"uuid"];
+        //        [issue setValue:@"Derpity" forKey:@"uuid"];
+        //        [issue setValue:[params valueForKey:@"description"] forKey:@"description_"];
+
+        //        if (![context save:&error]) {
+        //            NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+        //        }
+
+        //        [connection respond:200 withString:@"Create!"];
+        //    }
+        //    else {
+        //        [connection respond:200 withString:message];
+        //    }
+        //}
+        
+        //NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+        //NSEntityDescription *entity = [NSEntityDescription 
+        //                            entityForName:@"Issue" inManagedObjectContext:context];
+        //[fetchRequest setEntity:entity];
+        //NSArray *result = [context executeFetchRequest:fetchRequest error:&error];
+        //for (NSManagedObject *_issue in result) {
+        //    NSLog(@"issue: %@ %@", [_issue valueForKey:@"uuid"], [_issue valueForKey:@"description_"]);
+        //}        
+        //[fetchRequest release];
     }];
+
     [CackHTTPConnection setMOC:[self managedObjectContext]];
 	[DDLog addLogger:[DDTTYLogger sharedInstance]];
 	
