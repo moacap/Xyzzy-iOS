@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -273,12 +275,6 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>9</integer>
-									<integer>1</integer>
-									<integer>0</integer>
-								</array>
-								<array>
-									<integer>10</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -314,14 +310,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CackResponse.h</string>
+								<string></string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,19 +323,18 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CackResponse.h</string>
+										<string></string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D44396FD13A827C600894753</string>
+										<string>D443977A13A83D0C00894753</string>
 										<key>history</key>
 										<array>
-											<string>D443966713A80E2200894753</string>
-											<string>D443966813A80E2200894753</string>
 											<string>D443967813A8163400894753</string>
 											<string>D44396DD13A824D800894753</string>
 											<string>D44396DE13A824D800894753</string>
-											<string>D44396DF13A824D800894753</string>
+											<string>D443973213A838CA00894753</string>
+											<string>D443973313A838CA00894753</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -541,8 +534,8 @@
 	<array>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>D443964E13A80D2C00894753</string>
 		<string>/Users/rob/develop/Xyzzy-iOS/Untitled/Untitled.xcodeproj</string>
+		<string>D443964E13A80D2C00894753</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1280 719 0 0 1280 778 </string>
@@ -561,14 +554,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MyHttpConnection.m</string>
+								<string>CackHTTPConnection.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -585,6 +576,8 @@
 							<string>436pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -637,7 +630,7 @@
 			<key>WindowToolGUID</key>
 			<string>D443964E13A80D2C00894753</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

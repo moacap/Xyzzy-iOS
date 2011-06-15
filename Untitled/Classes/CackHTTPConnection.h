@@ -9,12 +9,18 @@
 #import <Foundation/Foundation.h>
 #import "HTTPConnection.h"
 
-
 @interface CackHTTPConnection : HTTPConnection {
+
+    NSObject<HTTPResponse> *response_;
 
 }
 
+@property (nonatomic, retain) NSObject<HTTPResponse> *response;
+
 + (void)setMOC:(NSManagedObjectContext *)value;
 + (NSManagedObjectContext *) getMOC;
+
+- (void) respond: ( NSInteger ) status;
+- (void) respond: ( NSInteger ) status withString: ( NSString* ) string;
 
 @end

@@ -19,6 +19,8 @@ static NSManagedObjectContext *managedObjectContext_;
 
 @implementation CackHTTPConnection
 
+@synthesize response = response_;
+
 + (void)setMOC:(NSManagedObjectContext *)value {
     managedObjectContext_ = value;
 }
@@ -27,23 +29,16 @@ static NSManagedObjectContext *managedObjectContext_;
     return managedObjectContext_;
 }
 
-- (BOOL)supportsMethod:(NSString *)method atPath:(NSString *)path {
-	HTTPLogTrace();
-	
-	if ([method isEqualToString:@"POST"]) {
-
-	}
-	
-	return [super supportsMethod:method atPath:path];
+- (void) respond: ( NSInteger ) status {
+    CackResponse *response = [[[CackResponse alloc] init] autorelease];
+    response.status = status;
+    self.response = response;
 }
 
-- (BOOL)expectsRequestBodyFromMethod:(NSString *)method atPath:(NSString *)path {
-	HTTPLogTrace();
-	
-	if([method isEqualToString:@"POST"])
-		return YES;
-	
-	return [super expectsRequestBodyFromMethod:method atPath:path];
+- (void) respond: ( NSInteger ) status withString: ( NSString* ) string {
+    CackResponse *response = [[[CackResponse alloc] initWithData:[string dataUsingEncoding:NSUTF8StringEncoding]] autorelease];
+    response.status = status;
+    self.response = response;
 }
 
 - (NSObject<HTTPResponse> *)httpResponseForMethod:(NSString *)method URI:(NSString *)path {
@@ -56,7 +51,7 @@ static NSManagedObjectContext *managedObjectContext_;
     NSString *message = [[[NSString alloc] initWithFormat:@"Hello, World (%@): %@", path, [params valueForKey:@"xyzzy"]] autorelease];
 
 	if (YES || [method isEqualToString:@"POST"]) {
-	    if (YES || [path isEqualToString:@"/issue/create"]) {
+	    if ([path isEqualToString:@"/issue/create"]) {
             
             NSManagedObject *issue = [NSEntityDescription
                                             insertNewObjectForEntityForName:@"Issue" 
@@ -68,6 +63,11 @@ static NSManagedObjectContext *managedObjectContext_;
             if (![context save:&error]) {
                 NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
             }
+
+            [self respond:200 withString:@"Create!"];
+        }
+        else {
+            [self respond:200 withString:message];
         }
     }
 	
@@ -81,43 +81,33 @@ static NSManagedObjectContext *managedObjectContext_;
 	}        
 	[fetchRequest release];
 
-    CackResponse *response = [[[CackResponse alloc] initWithData:[message dataUsingEncoding:NSUTF8StringEncoding]] autorelease];
-    response.status = 404;
-    return response;
-	
-	//if ([method isEqualToString:@"POST"] && [path isEqualToString:@"/post.html"])
-	//{
-	//    HTTPLogVerbose(@"%@[%p]: postContentLength: %qu", THIS_FILE, self, requestContentLength);
-		
-	//    NSString *postStr = nil;
-		
-	//    NSData *postData = [request body];
-	//    if (postData)
-	//    {
-	//        postStr = [[[NSString alloc] initWithData:postData encoding:NSUTF8StringEncoding] autorelease];
-	//    }
-		
-	//    HTTPLogVerbose(@"%@[%p]: postStr: %@", THIS_FILE, self, postStr);
-		
-	//    // Result will be of the form "answer=..."
-		
-	//    int answer = [[postStr substringFromIndex:7] intValue];
-		
-	//    NSData *response = nil;
-	//    if(answer == 10)
-	//    {
-	//        response = [@"<html><body>Correct<body></html>" dataUsingEncoding:NSUTF8StringEncoding];
-	//    }
-	//    else
-	//    {
-	//        response = [@"<html><body>Sorry - Try Again<body></html>" dataUsingEncoding:NSUTF8StringEncoding];
-	//    }
-		
-	//    return [[[HTTPDataResponse alloc] initWithData:response] autorelease];
-	
-	// }
+    //CackResponse *response = [[[CackResponse alloc] initWithData:[message dataUsingEncoding:NSUTF8StringEncoding]] autorelease];
+    //response.status = 404;
+    //return response;
+    if ( self.response != nil ) {
+        return self.response;
+    }
 	
 	return [super httpResponseForMethod:method URI:path];
 }
+
+//- (BOOL)supportsMethod:(NSString *)method atPath:(NSString *)path {
+//    HTTPLogTrace();
+	
+//    if ([method isEqualToString:@"POST"]) {
+
+//    }
+	
+//    return [super supportsMethod:method atPath:path];
+//}
+
+//- (BOOL)expectsRequestBodyFromMethod:(NSString *)method atPath:(NSString *)path {
+//    HTTPLogTrace();
+	
+//    if([method isEqualToString:@"POST"])
+//        return YES;
+	
+//    return [super expectsRequestBodyFromMethod:method atPath:path];
+//}
 
 @end
