@@ -17,10 +17,19 @@
 
 static const int httpLogLevel = HTTP_LOG_LEVEL_WARN; // | HTTP_LOG_FLAG_TRACE;
 static NSManagedObjectContext *managedObjectContext_;
+static void(^run_)(void);
 
 @implementation CackHTTPConnection
 
 @synthesize response = response_;
+
++ (void)setRun:(void(^)(void))value {
+    run_ = value;
+}
+
++ (void (^)(void)) getRun {
+    return run_;
+}
 
 + (void)setMOC:(NSManagedObjectContext *)value {
     managedObjectContext_ = value;
@@ -48,6 +57,9 @@ static NSManagedObjectContext *managedObjectContext_;
     NSError *error;
     NSString *method = rq.method;
     NSString *path = rq.path;
+    if ( [[self class] getRun] != nil ) {
+        [[self class] getRun]();
+    }
 
 	NSDictionary *params = [self parseGetParams];
     NSString *message = [[[NSString alloc] initWithFormat:@"Hello, World (%@): %@", path, [params valueForKey:@"xyzzy"]] autorelease];

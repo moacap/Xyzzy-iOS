@@ -327,14 +327,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D46D397213A83FDE005674C7</string>
+										<string>D46D39A813A847A1005674C7</string>
 										<key>history</key>
 										<array>
 											<string>D443967813A8163400894753</string>
 											<string>D44396DD13A824D800894753</string>
 											<string>D44396DE13A824D800894753</string>
 											<string>D443973213A838CA00894753</string>
-											<string>D443979013A83FB900894753</string>
+											<string>D46D398813A8467C005674C7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -534,8 +534,8 @@
 	<array>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>D443964E13A80D2C00894753</string>
 		<string>/Users/rob/develop/Xyzzy-iOS/Untitled/Untitled.xcodeproj</string>
+		<string>D443964E13A80D2C00894753</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 59 1280 719 0 0 1280 778 </string>
@@ -559,7 +559,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>CackHTTPConnection.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -576,6 +576,8 @@
 							<string>436pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -628,7 +630,7 @@
 			<key>WindowToolGUID</key>
 			<string>D443964E13A80D2C00894753</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -870,6 +872,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

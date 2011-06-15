@@ -13,10 +13,14 @@
 @interface CackHTTPConnection : HTTPConnection {
 
     NSObject<HTTPResponse> *response_;
+    void (^run_)(void);
 
 }
 
 @property (nonatomic, retain) NSObject<HTTPResponse> *response;
+
++ (void)setRun:(void(^)(void))value;
++ (void (^)(void)) getRun;
 
 + (void)setMOC:(NSManagedObjectContext *)value;
 + (NSManagedObjectContext *) getMOC;

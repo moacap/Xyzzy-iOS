@@ -23,6 +23,9 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
     // Override point for customization after application launch.
 
+    [CackHTTPConnection setRun:^{
+        NSLog( @"Hello, World!" );
+    }];
     [CackHTTPConnection setMOC:[self managedObjectContext]];
 	[DDLog addLogger:[DDTTYLogger sharedInstance]];
 	
