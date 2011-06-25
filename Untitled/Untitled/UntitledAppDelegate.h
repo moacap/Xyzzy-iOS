@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class RootViewController;
+
+@class DetailViewController;
+
 @interface UntitledAppDelegate : NSObject <UIApplicationDelegate> {
 
 }
@@ -20,5 +24,11 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+
+@property (nonatomic, retain) IBOutlet UISplitViewController *splitViewController;
+
+@property (nonatomic, retain) IBOutlet RootViewController *rootViewController;
+
+@property (nonatomic, retain) IBOutlet DetailViewController *detailViewController;
 
 @end

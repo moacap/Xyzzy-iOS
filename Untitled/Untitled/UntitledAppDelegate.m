@@ -8,16 +8,12 @@
 
 #import "UntitledAppDelegate.h"
 
-#import "CackleServer.h"
-#import "CackleConnection.h"
-#import "DDLog.h"
-#import "DDTTYLogger.h"
+#import "RootViewController.h"
 
+#import "DetailViewController.h"
 
 @implementation UntitledAppDelegate
 
-CackleServer *httpServer;
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 @synthesize window=_window;
 
@@ -27,30 +23,17 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 @synthesize persistentStoreCoordinator=__persistentStoreCoordinator;
 
+@synthesize splitViewController=_splitViewController;
+
+@synthesize rootViewController=_rootViewController;
+
+@synthesize detailViewController=_detailViewController;
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [DDLog addLogger:[DDTTYLogger sharedInstance]];
-	
-	// Create server using our custom MyHTTPServer class
-	httpServer = [[CackleServer alloc] init];
-	
-	// Tell the server to broadcast its presence via Bonjour.
-	// This allows browsers such as Safari to automatically discover our service.
-	[httpServer setType:@"_http._tcp."];
-	
-	// Normally there's no need to run our server on any specific port.
-	// Technologies like Bonjour allow clients to dynamically discover the server's port at runtime.
-	// However, for easy testing you may want force a certain port so you can just hit the refresh button.
-	[httpServer setPort:12346];
-    httpServer.runBlock = ^(CackleRequest *request){
-        [request respond:200 withString:@"Hello, World!"];
-    };
-	
-	NSError *error;
-	if(![httpServer start:&error]) {
-		DDLogError(@"Error starting HTTP Server: %@", error);
-	}
     // Override point for customization after application launch.
+    // Add the split view controller's view to the window and display.
+    self.window.rootViewController = self.splitViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -97,17 +80,17 @@ static const int ddLogLevel = LOG_LEVEL_VERBOSE;
     [__managedObjectContext release];
     [__managedObjectModel release];
     [__persistentStoreCoordinator release];
+    [_splitViewController release];
+    [_rootViewController release];
+    [_detailViewController release];
     [super dealloc];
 }
 
 - (void)awakeFromNib
 {
-    /*
-     Typically you should set up the Core Data stack here, usually by passing the managed object context to the first view controller.
-     self.<#View controller#>.managedObjectContext = self.managedObjectContext;
-    */
+    // Pass the managed object context to the root view controller.
+    self.rootViewController.managedObjectContext = self.managedObjectContext; 
 }
-
 - (void)saveContext
 {
     NSError *error = nil;
