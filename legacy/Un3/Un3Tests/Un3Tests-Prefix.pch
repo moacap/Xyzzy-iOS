@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Un3Tests' target in the 'Un3Tests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
