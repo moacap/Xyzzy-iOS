@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4CB3B4713B8214600C4B9B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CB3B4613B8214600C4B9B3 /* UIKit.framework */; };
+		D4CB3B4913B8214600C4B9B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CB3B4813B8214600C4B9B3 /* Foundation.framework */; };
+		D4CB3B4B13B8214600C4B9B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CB3B4A13B8214600C4B9B3 /* CoreGraphics.framework */; };
+		D4CB3B5113B8214600C4B9B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B4F13B8214600C4B9B3 /* InfoPlist.strings */; };
+		D4CB3B5413B8214600C4B9B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3B5313B8214600C4B9B3 /* main.m */; };
+		D4CB3B5713B8214600C4B9B3 /* ImportCSVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3B5613B8214600C4B9B3 /* ImportCSVAppDelegate.m */; };
+		D4CB3B5D13B8214700C4B9B3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3B5C13B8214700C4B9B3 /* RootViewController.m */; };
+		D4CB3B6013B8214700C4B9B3 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B5E13B8214700C4B9B3 /* RootViewController.xib */; };
+		D4CB3B6913B8216500C4B9B3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B6713B8216500C4B9B3 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4CB3B4213B8214600C4B9B3 /* ImportCSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportCSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CB3B4613B8214600C4B9B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4CB3B4813B8214600C4B9B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4CB3B4A13B8214600C4B9B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4CB3B4E13B8214600C4B9B3 /* ImportCSV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImportCSV-Info.plist"; sourceTree = "<group>"; };
+		D4CB3B5013B8214600C4B9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4CB3B5213B8214600C4B9B3 /* ImportCSV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImportCSV-Prefix.pch"; sourceTree = "<group>"; };
+		D4CB3B5313B8214600C4B9B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4CB3B5513B8214600C4B9B3 /* ImportCSVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportCSVAppDelegate.h; sourceTree = "<group>"; };
+		D4CB3B5613B8214600C4B9B3 /* ImportCSVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportCSVAppDelegate.m; sourceTree = "<group>"; };
+		D4CB3B5B13B8214600C4B9B3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D4CB3B5C13B8214700C4B9B3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D4CB3B5F13B8214700C4B9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		D4CB3B6813B8216500C4B9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4CB3B3F13B8214600C4B9B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CB3B4713B8214600C4B9B3 /* UIKit.framework in Frameworks */,
+				D4CB3B4913B8214600C4B9B3 /* Foundation.framework in Frameworks */,
+				D4CB3B4B13B8214600C4B9B3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4CB3B3713B8214600C4B9B3 = {
+			isa = PBXGroup;
+			children = (
+				D4CB3B4C13B8214600C4B9B3 /* ImportCSV */,
+				D4CB3B4513B8214600C4B9B3 /* Frameworks */,
+				D4CB3B4313B8214600C4B9B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4CB3B4313B8214600C4B9B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4CB3B4213B8214600C4B9B3 /* ImportCSV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4CB3B4513B8214600C4B9B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4CB3B4613B8214600C4B9B3 /* UIKit.framework */,
+				D4CB3B4813B8214600C4B9B3 /* Foundation.framework */,
+				D4CB3B4A13B8214600C4B9B3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4CB3B4C13B8214600C4B9B3 /* ImportCSV */ = {
+			isa = PBXGroup;
+			children = (
+				D4CB3B5513B8214600C4B9B3 /* ImportCSVAppDelegate.h */,
+				D4CB3B5613B8214600C4B9B3 /* ImportCSVAppDelegate.m */,
+				D4CB3B6713B8216500C4B9B3 /* MainWindow.xib */,
+				D4CB3B5B13B8214600C4B9B3 /* RootViewController.h */,
+				D4CB3B5C13B8214700C4B9B3 /* RootViewController.m */,
+				D4CB3B5E13B8214700C4B9B3 /* RootViewController.xib */,
+				D4CB3B4D13B8214600C4B9B3 /* Supporting Files */,
+			);
+			path = ImportCSV;
+			sourceTree = "<group>";
+		};
+		D4CB3B4D13B8214600C4B9B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4CB3B4E13B8214600C4B9B3 /* ImportCSV-Info.plist */,
+				D4CB3B4F13B8214600C4B9B3 /* InfoPlist.strings */,
+				D4CB3B5213B8214600C4B9B3 /* ImportCSV-Prefix.pch */,
+				D4CB3B5313B8214600C4B9B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4CB3B4113B8214600C4B9B3 /* ImportCSV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4CB3B6313B8214700C4B9B3 /* Build configuration list for PBXNativeTarget "ImportCSV" */;
+			buildPhases = (
+				D4CB3B3E13B8214600C4B9B3 /* Sources */,
+				D4CB3B3F13B8214600C4B9B3 /* Frameworks */,
+				D4CB3B4013B8214600C4B9B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImportCSV;
+			productName = ImportCSV;
+			productReference = D4CB3B4213B8214600C4B9B3 /* ImportCSV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4CB3B3913B8214600C4B9B3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D4CB3B3C13B8214600C4B9B3 /* Build configuration list for PBXProject "ImportCSV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4CB3B3713B8214600C4B9B3;
+			productRefGroup = D4CB3B4313B8214600C4B9B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4CB3B4113B8214600C4B9B3 /* ImportCSV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4CB3B4013B8214600C4B9B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CB3B5113B8214600C4B9B3 /* InfoPlist.strings in Resources */,
+				D4CB3B6013B8214700C4B9B3 /* RootViewController.xib in Resources */,
+				D4CB3B6913B8216500C4B9B3 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4CB3B3E13B8214600C4B9B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4CB3B5413B8214600C4B9B3 /* main.m in Sources */,
+				D4CB3B5713B8214600C4B9B3 /* ImportCSVAppDelegate.m in Sources */,
+				D4CB3B5D13B8214700C4B9B3 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4CB3B4F13B8214600C4B9B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CB3B5013B8214600C4B9B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4CB3B5E13B8214700C4B9B3 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CB3B5F13B8214700C4B9B3 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		D4CB3B6713B8216500C4B9B3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4CB3B6813B8216500C4B9B3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4CB3B6113B8214700C4B9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4CB3B6213B8214700C4B9B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D4CB3B6413B8214700C4B9B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImportCSV/ImportCSV-Prefix.pch";
+				INFOPLIST_FILE = "ImportCSV/ImportCSV-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4CB3B6513B8214700C4B9B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImportCSV/ImportCSV-Prefix.pch";
+				INFOPLIST_FILE = "ImportCSV/ImportCSV-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4CB3B3C13B8214600C4B9B3 /* Build configuration list for PBXProject "ImportCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CB3B6113B8214700C4B9B3 /* Debug */,
+				D4CB3B6213B8214700C4B9B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4CB3B6313B8214700C4B9B3 /* Build configuration list for PBXNativeTarget "ImportCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4CB3B6413B8214700C4B9B3 /* Debug */,
+				D4CB3B6513B8214700C4B9B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4CB3B3913B8214600C4B9B3 /* Project object */;
+}
