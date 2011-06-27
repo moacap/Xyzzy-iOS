@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4285E1313B8364C00B24B63 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4285E1213B8364C00B24B63 /* CoreFoundation.framework */; };
+		D4285E1913B8364C00B24B63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4285E1713B8364C00B24B63 /* InfoPlist.strings */; };
+		D4285E2213B8368B00B24B63 /* VIMp.m in Sources */ = {isa = PBXBuildFile; fileRef = D4285E2113B8368A00B24B63 /* VIMp.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4285E0F13B8364C00B24B63 /* VIMp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIMp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4285E1213B8364C00B24B63 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		D4285E1613B8364C00B24B63 /* VIMp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VIMp-Info.plist"; sourceTree = "<group>"; };
+		D4285E1813B8364C00B24B63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4285E1A13B8364C00B24B63 /* VIMp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIMp-Prefix.pch"; sourceTree = "<group>"; };
+		D4285E2013B8368A00B24B63 /* VIMp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIMp.h; sourceTree = "<group>"; };
+		D4285E2113B8368A00B24B63 /* VIMp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIMp.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4285E0C13B8364C00B24B63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4285E1313B8364C00B24B63 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4285E0413B8364B00B24B63 = {
+			isa = PBXGroup;
+			children = (
+				D4285E1413B8364C00B24B63 /* VIMp */,
+				D4285E1113B8364C00B24B63 /* Frameworks */,
+				D4285E1013B8364C00B24B63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4285E1013B8364C00B24B63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4285E0F13B8364C00B24B63 /* VIMp.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4285E1113B8364C00B24B63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4285E1213B8364C00B24B63 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4285E1413B8364C00B24B63 /* VIMp */ = {
+			isa = PBXGroup;
+			children = (
+				D4285E1513B8364C00B24B63 /* Supporting Files */,
+				D4285E2013B8368A00B24B63 /* VIMp.h */,
+				D4285E2113B8368A00B24B63 /* VIMp.m */,
+			);
+			path = VIMp;
+			sourceTree = "<group>";
+		};
+		D4285E1513B8364C00B24B63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4285E1613B8364C00B24B63 /* VIMp-Info.plist */,
+				D4285E1713B8364C00B24B63 /* InfoPlist.strings */,
+				D4285E1A13B8364C00B24B63 /* VIMp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4285E0E13B8364C00B24B63 /* VIMp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4285E1D13B8364C00B24B63 /* Build configuration list for PBXNativeTarget "VIMp" */;
+			buildPhases = (
+				D4285E0B13B8364C00B24B63 /* Sources */,
+				D4285E0C13B8364C00B24B63 /* Frameworks */,
+				D4285E0D13B8364C00B24B63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIMp;
+			productName = VIMp;
+			productReference = D4285E0F13B8364C00B24B63 /* VIMp.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4285E0613B8364B00B24B63 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D4285E0913B8364B00B24B63 /* Build configuration list for PBXProject "VIMp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4285E0413B8364B00B24B63;
+			productRefGroup = D4285E1013B8364C00B24B63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4285E0E13B8364C00B24B63 /* VIMp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4285E0D13B8364C00B24B63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4285E1913B8364C00B24B63 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4285E0B13B8364C00B24B63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4285E2213B8368B00B24B63 /* VIMp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4285E1713B8364C00B24B63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4285E1813B8364C00B24B63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4285E1B13B8364C00B24B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D4285E1C13B8364C00B24B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D4285E1E13B8364C00B24B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIMp/VIMp-Prefix.pch";
+				INFOPLIST_FILE = "VIMp/VIMp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					suppress,
+                    "-undefined",
+                    dynamic_lookup,
+				);
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D4285E1F13B8364C00B24B63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIMp/VIMp-Prefix.pch";
+				INFOPLIST_FILE = "VIMp/VIMp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					suppress,
+                    "-undefined",
+                    dynamic_lookup,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4285E0913B8364B00B24B63 /* Build configuration list for PBXProject "VIMp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4285E1B13B8364C00B24B63 /* Debug */,
+				D4285E1C13B8364C00B24B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4285E1D13B8364C00B24B63 /* Build configuration list for PBXNativeTarget "VIMp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4285E1E13B8364C00B24B63 /* Debug */,
+				D4285E1F13B8364C00B24B63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4285E0613B8364B00B24B63 /* Project object */;
+}
