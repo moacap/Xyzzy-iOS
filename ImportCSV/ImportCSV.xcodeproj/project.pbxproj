@@ -16,6 +16,7 @@
 		D4CB3B5D13B8214700C4B9B3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3B5C13B8214700C4B9B3 /* RootViewController.m */; };
 		D4CB3B6013B8214700C4B9B3 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B5E13B8214700C4B9B3 /* RootViewController.xib */; };
 		D4CB3B6913B8216500C4B9B3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B6713B8216500C4B9B3 /* MainWindow.xib */; };
+		D4CB3B6E13B82D0B00C4B9B3 /* Documents in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B6D13B82D0B00C4B9B3 /* Documents */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D4CB3B5C13B8214700C4B9B3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		D4CB3B5F13B8214700C4B9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		D4CB3B6813B8216500C4B9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D4CB3B6D13B82D0B00C4B9B3 /* Documents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documents; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		D4CB3B3713B8214600C4B9B3 = {
 			isa = PBXGroup;
 			children = (
+				D4CB3B6D13B82D0B00C4B9B3 /* Documents */,
 				D4CB3B4C13B8214600C4B9B3 /* ImportCSV */,
 				D4CB3B4513B8214600C4B9B3 /* Frameworks */,
 				D4CB3B4313B8214600C4B9B3 /* Products */,
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CB3B6E13B82D0B00C4B9B3 /* Documents in Resources */,
 				D4CB3B5113B8214600C4B9B3 /* InfoPlist.strings in Resources */,
 				D4CB3B6013B8214700C4B9B3 /* RootViewController.xib in Resources */,
 				D4CB3B6913B8216500C4B9B3 /* MainWindow.xib in Resources */,

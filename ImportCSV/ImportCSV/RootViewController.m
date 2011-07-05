@@ -13,6 +13,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSString *pathToDocuments;
+    if ( YES ) {
+        NSString *resourcePath = [[NSBundle mainBundle] resourcePath];
+        pathToDocuments = [resourcePath stringByAppendingPathComponent:@"Documents"];
+    } 
+    else {
+        NSArray *list = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+        pathToDocuments = [list lastObject];
+    }
+    NSError *error;
+    fileList = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:pathToDocuments error:&error];
+
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -51,7 +64,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return [fileList count];
 }
 
 // Customize the appearance of table view cells.
@@ -63,9 +76,10 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-
+    
+    cell.textLabel.text = [NSString stringWithFormat:@"%@", [fileList objectAtIndex:indexPath.row]];
     // Configure the cell.
-    return cell;
+    return c``el`l;
 }
 
 /*

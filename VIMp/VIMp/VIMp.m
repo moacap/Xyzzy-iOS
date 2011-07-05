@@ -7,13 +7,12 @@
 //
 
 #import "VIMp.h"
-#import <Foundation/Foundation.h>
 
 @implementation VIMp
 
 + (void) load {
 
-   NSLog(@"Hello, World from VIMp");
+   NSLog(@"Hello, Xcode4 from VIMp");
 }
 
 @end

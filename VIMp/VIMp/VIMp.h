@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <ctype.h>
 
 @interface VIMp : NSObject {
 @private

@@ -50,11 +50,35 @@
 	<array>
         <dict>
         <key>BundleIdentifier</key>
+        <string>com.apple.dt.Xcode</string>
+        <key>MaxBundleVersion</key>
+        <string>99</string>
+        <key>MinBundleVersion</key>
+        <string>99</string>
+        </dict> 
+        <dict>
+        <key>BundleIdentifier</key>
+        <string>com.apple.Xcode</string>
+        <key>MaxBundleVersion</key>
+        <string>1761</string>
+        <key>MinBundleVersion</key>
+        <string>1761</string>
+        </dict> 
+        <dict>
+        <key>BundleIdentifier</key>
         <string>com.apple.Safari</string>
         <key>MaxBundleVersion</key>
         <string>6533.21.1</string>
         <key>MinBundleVersion</key>
         <string>6533.21.1</string>
+        </dict> 
+        <dict>
+        <key>BundleIdentifier</key>
+        <string>com.apple.TextEdit</string>
+        <key>MaxBundleVersion</key>
+        <string>264</string>
+        <key>MinBundleVersion</key>
+        <string>264</string>
         </dict> 
     </array>
 	<key>CFBundleDisplayName</key>

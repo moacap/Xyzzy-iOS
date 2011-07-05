@@ -10,6 +10,7 @@
 		D4285E1313B8364C00B24B63 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4285E1213B8364C00B24B63 /* CoreFoundation.framework */; };
 		D4285E1913B8364C00B24B63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4285E1713B8364C00B24B63 /* InfoPlist.strings */; };
 		D4285E2213B8368B00B24B63 /* VIMp.m in Sources */ = {isa = PBXBuildFile; fileRef = D4285E2113B8368A00B24B63 /* VIMp.m */; };
+		D4F592BD13B85095008C7616 /* NSTextView_VI.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F592BC13B85095008C7616 /* NSTextView_VI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		D4285E1A13B8364C00B24B63 /* VIMp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIMp-Prefix.pch"; sourceTree = "<group>"; };
 		D4285E2013B8368A00B24B63 /* VIMp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIMp.h; sourceTree = "<group>"; };
 		D4285E2113B8368A00B24B63 /* VIMp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIMp.m; sourceTree = "<group>"; };
+		D4F592BC13B85095008C7616 /* NSTextView_VI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTextView_VI.m; sourceTree = "<group>"; };
+		D4F592BF13B8509C008C7616 /* NSTextView_VI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTextView_VI.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 		D4285E1413B8364C00B24B63 /* VIMp */ = {
 			isa = PBXGroup;
 			children = (
+				D4F592BF13B8509C008C7616 /* NSTextView_VI.h */,
+				D4F592BC13B85095008C7616 /* NSTextView_VI.m */,
 				D4285E1513B8364C00B24B63 /* Supporting Files */,
 				D4285E2013B8368A00B24B63 /* VIMp.h */,
 				D4285E2113B8368A00B24B63 /* VIMp.m */,
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4285E2213B8368B00B24B63 /* VIMp.m in Sources */,
+				D4F592BD13B85095008C7616 /* NSTextView_VI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +200,8 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				"GCC_ENABLE_OBJC_GC[arch=*]" = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VIMp/VIMp-Prefix.pch";
 				INFOPLIST_FILE = "VIMp/VIMp-Info.plist";
@@ -201,8 +209,8 @@
 				OTHER_LDFLAGS = (
 					"-undefined",
 					suppress,
-                    "-undefined",
-                    dynamic_lookup,
+					"-undefined",
+					dynamic_lookup,
 				);
 				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -217,6 +225,7 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VIMp/VIMp-Prefix.pch";
 				INFOPLIST_FILE = "VIMp/VIMp-Info.plist";
@@ -224,8 +233,8 @@
 				OTHER_LDFLAGS = (
 					"-undefined",
 					suppress,
-                    "-undefined",
-                    dynamic_lookup,
+					"-undefined",
+					dynamic_lookup,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
@@ -251,6 +260,7 @@
 				D4285E1F13B8364C00B24B63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
