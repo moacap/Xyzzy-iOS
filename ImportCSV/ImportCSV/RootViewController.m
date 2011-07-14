@@ -57,7 +57,7 @@
 
 - (IBAction)doImport:(id)sender {
     FileViewController *vc = [[FileViewController alloc] initWithNibName:@"FileViewController" bundle:nil];
-    vc.navigationController = self.navigationController;
+    //vc.navigationController = self.navigationController;
     NSLog(@"%@", [self.navigationController class]);
     [self.navigationController pushViewController:vc animated:YES];
     [vc autorelease];

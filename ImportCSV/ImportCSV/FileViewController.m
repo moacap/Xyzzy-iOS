@@ -12,8 +12,6 @@
 
 @implementation FileViewController;
 
-@synthesize navigationController;
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
