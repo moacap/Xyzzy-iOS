@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D43DACD313C3E09700A57A69 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43DACD113C3E09700A57A69 /* RootViewController.m */; };
+		D43DACD413C3E09700A57A69 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D43DACD213C3E09700A57A69 /* RootViewController.xib */; };
+		D44150D013CE73A000EF10D7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44150CE13CE73A000EF10D7 /* DetailViewController.m */; };
+		D44150D113CE73A000EF10D7 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D44150CF13CE73A000EF10D7 /* DetailViewController.xib */; };
 		D4CB3B4713B8214600C4B9B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CB3B4613B8214600C4B9B3 /* UIKit.framework */; };
 		D4CB3B4913B8214600C4B9B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CB3B4813B8214600C4B9B3 /* Foundation.framework */; };
 		D4CB3B4B13B8214600C4B9B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CB3B4A13B8214600C4B9B3 /* CoreGraphics.framework */; };
 		D4CB3B5113B8214600C4B9B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B4F13B8214600C4B9B3 /* InfoPlist.strings */; };
 		D4CB3B5413B8214600C4B9B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3B5313B8214600C4B9B3 /* main.m */; };
 		D4CB3B5713B8214600C4B9B3 /* ImportCSVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3B5613B8214600C4B9B3 /* ImportCSVAppDelegate.m */; };
-		D4CB3B5D13B8214700C4B9B3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3B5C13B8214700C4B9B3 /* RootViewController.m */; };
-		D4CB3B6013B8214700C4B9B3 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B5E13B8214700C4B9B3 /* RootViewController.xib */; };
+		D4CB3B5D13B8214700C4B9B3 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3B5C13B8214700C4B9B3 /* FileViewController.m */; };
+		D4CB3B6013B8214700C4B9B3 /* FileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B5E13B8214700C4B9B3 /* FileViewController.xib */; };
 		D4CB3B6913B8216500C4B9B3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B6713B8216500C4B9B3 /* MainWindow.xib */; };
 		D4CB3B6E13B82D0B00C4B9B3 /* Documents in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B6D13B82D0B00C4B9B3 /* Documents */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D43DACD013C3E09700A57A69 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D43DACD113C3E09700A57A69 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D43DACD213C3E09700A57A69 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		D44150CD13CE73A000EF10D7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D44150CE13CE73A000EF10D7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D44150CF13CE73A000EF10D7 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		D4CB3B4213B8214600C4B9B3 /* ImportCSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportCSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CB3B4613B8214600C4B9B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4CB3B4813B8214600C4B9B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -30,9 +40,9 @@
 		D4CB3B5313B8214600C4B9B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4CB3B5513B8214600C4B9B3 /* ImportCSVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportCSVAppDelegate.h; sourceTree = "<group>"; };
 		D4CB3B5613B8214600C4B9B3 /* ImportCSVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportCSVAppDelegate.m; sourceTree = "<group>"; };
-		D4CB3B5B13B8214600C4B9B3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		D4CB3B5C13B8214700C4B9B3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		D4CB3B5F13B8214700C4B9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		D4CB3B5B13B8214600C4B9B3 /* FileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		D4CB3B5C13B8214700C4B9B3 /* FileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
+		D4CB3B5F13B8214700C4B9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FileViewController.xib; sourceTree = "<group>"; };
 		D4CB3B6813B8216500C4B9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		D4CB3B6D13B82D0B00C4B9B3 /* Documents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documents; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,10 +95,16 @@
 				D4CB3B5513B8214600C4B9B3 /* ImportCSVAppDelegate.h */,
 				D4CB3B5613B8214600C4B9B3 /* ImportCSVAppDelegate.m */,
 				D4CB3B6713B8216500C4B9B3 /* MainWindow.xib */,
-				D4CB3B5B13B8214600C4B9B3 /* RootViewController.h */,
-				D4CB3B5C13B8214700C4B9B3 /* RootViewController.m */,
-				D4CB3B5E13B8214700C4B9B3 /* RootViewController.xib */,
+				D4CB3B5B13B8214600C4B9B3 /* FileViewController.h */,
+				D4CB3B5C13B8214700C4B9B3 /* FileViewController.m */,
+				D4CB3B5E13B8214700C4B9B3 /* FileViewController.xib */,
 				D4CB3B4D13B8214600C4B9B3 /* Supporting Files */,
+				D43DACD013C3E09700A57A69 /* RootViewController.h */,
+				D43DACD113C3E09700A57A69 /* RootViewController.m */,
+				D43DACD213C3E09700A57A69 /* RootViewController.xib */,
+				D44150CD13CE73A000EF10D7 /* DetailViewController.h */,
+				D44150CE13CE73A000EF10D7 /* DetailViewController.m */,
+				D44150CF13CE73A000EF10D7 /* DetailViewController.xib */,
 			);
 			path = ImportCSV;
 			sourceTree = "<group>";
@@ -153,8 +169,10 @@
 			files = (
 				D4CB3B6E13B82D0B00C4B9B3 /* Documents in Resources */,
 				D4CB3B5113B8214600C4B9B3 /* InfoPlist.strings in Resources */,
-				D4CB3B6013B8214700C4B9B3 /* RootViewController.xib in Resources */,
+				D4CB3B6013B8214700C4B9B3 /* FileViewController.xib in Resources */,
 				D4CB3B6913B8216500C4B9B3 /* MainWindow.xib in Resources */,
+				D43DACD413C3E09700A57A69 /* RootViewController.xib in Resources */,
+				D44150D113CE73A000EF10D7 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,7 +185,9 @@
 			files = (
 				D4CB3B5413B8214600C4B9B3 /* main.m in Sources */,
 				D4CB3B5713B8214600C4B9B3 /* ImportCSVAppDelegate.m in Sources */,
-				D4CB3B5D13B8214700C4B9B3 /* RootViewController.m in Sources */,
+				D4CB3B5D13B8214700C4B9B3 /* FileViewController.m in Sources */,
+				D43DACD313C3E09700A57A69 /* RootViewController.m in Sources */,
+				D44150D013CE73A000EF10D7 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,12 +202,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D4CB3B5E13B8214700C4B9B3 /* RootViewController.xib */ = {
+		D4CB3B5E13B8214700C4B9B3 /* FileViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D4CB3B5F13B8214700C4B9B3 /* en */,
 			);
-			name = RootViewController.xib;
+			name = FileViewController.xib;
 			sourceTree = "<group>";
 		};
 		D4CB3B6713B8216500C4B9B3 /* MainWindow.xib */ = {
@@ -284,6 +304,7 @@
 				D4CB3B6513B8214700C4B9B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
