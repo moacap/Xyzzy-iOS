@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import "CVSFile.h"
 
 @interface DetailViewController : UITableViewController {
-    
+    CVSFile *cvsFile;
+    NSMutableArray *lineList;
 }
+
+@property (nonatomic,retain) CVSFile *cvsFile;
 
 @end

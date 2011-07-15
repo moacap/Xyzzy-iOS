@@ -9,10 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface FileViewController : UITableViewController {
-    //UINavigationController *navigationController;
-    NSArray *fileList;
+    NSMutableArray *cvsFileList;
 }
 
-//@property (nonatomic, retain) UINavigationController* navigationController;
 
 @end

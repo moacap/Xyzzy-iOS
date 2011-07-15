@@ -11,6 +11,7 @@
 		D43DACD413C3E09700A57A69 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D43DACD213C3E09700A57A69 /* RootViewController.xib */; };
 		D44150D013CE73A000EF10D7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D44150CE13CE73A000EF10D7 /* DetailViewController.m */; };
 		D44150D113CE73A000EF10D7 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D44150CF13CE73A000EF10D7 /* DetailViewController.xib */; };
+		D479FDA413CEB4B600D929BD /* CVSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D479FDA313CEB4B600D929BD /* CVSFile.m */; };
 		D4CB3B4713B8214600C4B9B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CB3B4613B8214600C4B9B3 /* UIKit.framework */; };
 		D4CB3B4913B8214600C4B9B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CB3B4813B8214600C4B9B3 /* Foundation.framework */; };
 		D4CB3B4B13B8214600C4B9B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CB3B4A13B8214600C4B9B3 /* CoreGraphics.framework */; };
@@ -30,6 +31,8 @@
 		D44150CD13CE73A000EF10D7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		D44150CE13CE73A000EF10D7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		D44150CF13CE73A000EF10D7 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		D479FDA213CEB4B600D929BD /* CVSFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVSFile.h; sourceTree = "<group>"; };
+		D479FDA313CEB4B600D929BD /* CVSFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVSFile.m; sourceTree = "<group>"; };
 		D4CB3B4213B8214600C4B9B3 /* ImportCSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImportCSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4CB3B4613B8214600C4B9B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4CB3B4813B8214600C4B9B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -105,6 +108,8 @@
 				D44150CD13CE73A000EF10D7 /* DetailViewController.h */,
 				D44150CE13CE73A000EF10D7 /* DetailViewController.m */,
 				D44150CF13CE73A000EF10D7 /* DetailViewController.xib */,
+				D479FDA213CEB4B600D929BD /* CVSFile.h */,
+				D479FDA313CEB4B600D929BD /* CVSFile.m */,
 			);
 			path = ImportCSV;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 				D4CB3B5D13B8214700C4B9B3 /* FileViewController.m in Sources */,
 				D43DACD313C3E09700A57A69 /* RootViewController.m in Sources */,
 				D44150D013CE73A000EF10D7 /* DetailViewController.m in Sources */,
+				D479FDA413CEB4B600D929BD /* CVSFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

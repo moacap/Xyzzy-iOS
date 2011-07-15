@@ -8,8 +8,9 @@
 
 #import "DetailViewController.h"
 
-
 @implementation DetailViewController
+
+@synthesize cvsFile;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -39,6 +40,12 @@
 {
     [super viewDidLoad];
 
+    lineList = [[NSMutableArray alloc] init];
+    NSString *contents = [NSString stringWithContentsOfFile:self.cvsFile.path];
+    [contents enumerateLinesUsingBlock:^(NSString *line, BOOL *stop){
+        [lineList addObject:line];
+    }];
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -90,7 +97,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 0;
+    return [lineList count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -102,6 +109,7 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
+    cell.textLabel.text = [NSString stringWithFormat:@"%@", [lineList objectAtIndex:indexPath.row]];
     // Configure the cell...
     
     return cell;

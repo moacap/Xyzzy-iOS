@@ -9,6 +9,7 @@
 #import "FileViewController.h"
 
 #import "DetailViewController.h"
+#import "CVSFile.h"
 
 @implementation FileViewController;
 
@@ -26,8 +27,19 @@
         pathToDocuments = [list lastObject];
     }
     NSError *error;
-    fileList = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:pathToDocuments error:&error];
-    [fileList retain];
+
+    cvsFileList = [[NSMutableArray alloc] init];
+    
+    NSArray *fileList = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:pathToDocuments error:&error];
+    if ( fileList != nil ) {
+        NSEnumerator *enumerator = [fileList objectEnumerator];
+        NSString *file;
+        while ((file = [enumerator nextObject])) {
+            [cvsFileList addObject:[[CVSFile alloc] initWithFile:[pathToDocuments stringByAppendingPathComponent:file]]];
+        }
+
+    }
+
     NSLog(@"%d", [fileList count]);
 }
 
@@ -67,7 +79,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [fileList count];
+    return [cvsFileList count];
 }
 
 // Customize the appearance of table view cells.
@@ -80,7 +92,7 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    cell.textLabel.text = [NSString stringWithFormat:@"%@", [fileList objectAtIndex:indexPath.row]];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@", [[cvsFileList objectAtIndex:indexPath.row] nameOfFile]];
     // Configure the cell.
     return cell;
 }
@@ -129,6 +141,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     DetailViewController *detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+    detailViewController.cvsFile = [cvsFileList objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
 }
@@ -152,6 +165,7 @@
 - (void)dealloc
 {
     [super dealloc];
+    [cvsFileList dealloc];
 }
 
 @end
