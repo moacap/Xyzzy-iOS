@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FileViewController : UITableViewController {
+@interface FileListViewController : UITableViewController {
     NSMutableArray *cvsFileList;
 }
 

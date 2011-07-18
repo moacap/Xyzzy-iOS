@@ -18,8 +18,8 @@
 		D4CB3B5113B8214600C4B9B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B4F13B8214600C4B9B3 /* InfoPlist.strings */; };
 		D4CB3B5413B8214600C4B9B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3B5313B8214600C4B9B3 /* main.m */; };
 		D4CB3B5713B8214600C4B9B3 /* ImportCSVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3B5613B8214600C4B9B3 /* ImportCSVAppDelegate.m */; };
-		D4CB3B5D13B8214700C4B9B3 /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3B5C13B8214700C4B9B3 /* FileViewController.m */; };
-		D4CB3B6013B8214700C4B9B3 /* FileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B5E13B8214700C4B9B3 /* FileViewController.xib */; };
+		D4CB3B5D13B8214700C4B9B3 /* FileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CB3B5C13B8214700C4B9B3 /* FileListViewController.m */; };
+		D4CB3B6013B8214700C4B9B3 /* FileListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B5E13B8214700C4B9B3 /* FileListViewController.xib */; };
 		D4CB3B6913B8216500C4B9B3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B6713B8216500C4B9B3 /* MainWindow.xib */; };
 		D4CB3B6E13B82D0B00C4B9B3 /* Documents in Resources */ = {isa = PBXBuildFile; fileRef = D4CB3B6D13B82D0B00C4B9B3 /* Documents */; };
 /* End PBXBuildFile section */
@@ -43,9 +43,9 @@
 		D4CB3B5313B8214600C4B9B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4CB3B5513B8214600C4B9B3 /* ImportCSVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImportCSVAppDelegate.h; sourceTree = "<group>"; };
 		D4CB3B5613B8214600C4B9B3 /* ImportCSVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImportCSVAppDelegate.m; sourceTree = "<group>"; };
-		D4CB3B5B13B8214600C4B9B3 /* FileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
-		D4CB3B5C13B8214700C4B9B3 /* FileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
-		D4CB3B5F13B8214700C4B9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FileViewController.xib; sourceTree = "<group>"; };
+		D4CB3B5B13B8214600C4B9B3 /* FileListViewController.h */ = {isa = PBXFileReference; path = FileListViewController.h; sourceTree = "<group>"; };
+		D4CB3B5C13B8214700C4B9B3 /* FileListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileListViewController.m; sourceTree = "<group>"; };
+		D4CB3B5F13B8214700C4B9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FileListViewController.xib; sourceTree = "<group>"; };
 		D4CB3B6813B8216500C4B9B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		D4CB3B6D13B82D0B00C4B9B3 /* Documents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documents; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,9 +98,9 @@
 				D4CB3B5513B8214600C4B9B3 /* ImportCSVAppDelegate.h */,
 				D4CB3B5613B8214600C4B9B3 /* ImportCSVAppDelegate.m */,
 				D4CB3B6713B8216500C4B9B3 /* MainWindow.xib */,
-				D4CB3B5B13B8214600C4B9B3 /* FileViewController.h */,
-				D4CB3B5C13B8214700C4B9B3 /* FileViewController.m */,
-				D4CB3B5E13B8214700C4B9B3 /* FileViewController.xib */,
+				D4CB3B5B13B8214600C4B9B3 /* FileListViewController.h */,
+				D4CB3B5C13B8214700C4B9B3 /* FileListViewController.m */,
+				D4CB3B5E13B8214700C4B9B3 /* FileListViewController.xib */,
 				D4CB3B4D13B8214600C4B9B3 /* Supporting Files */,
 				D43DACD013C3E09700A57A69 /* RootViewController.h */,
 				D43DACD113C3E09700A57A69 /* RootViewController.m */,
@@ -174,7 +174,7 @@
 			files = (
 				D4CB3B6E13B82D0B00C4B9B3 /* Documents in Resources */,
 				D4CB3B5113B8214600C4B9B3 /* InfoPlist.strings in Resources */,
-				D4CB3B6013B8214700C4B9B3 /* FileViewController.xib in Resources */,
+				D4CB3B6013B8214700C4B9B3 /* FileListViewController.xib in Resources */,
 				D4CB3B6913B8216500C4B9B3 /* MainWindow.xib in Resources */,
 				D43DACD413C3E09700A57A69 /* RootViewController.xib in Resources */,
 				D44150D113CE73A000EF10D7 /* DetailViewController.xib in Resources */,
@@ -190,7 +190,7 @@
 			files = (
 				D4CB3B5413B8214600C4B9B3 /* main.m in Sources */,
 				D4CB3B5713B8214600C4B9B3 /* ImportCSVAppDelegate.m in Sources */,
-				D4CB3B5D13B8214700C4B9B3 /* FileViewController.m in Sources */,
+				D4CB3B5D13B8214700C4B9B3 /* FileListViewController.m in Sources */,
 				D43DACD313C3E09700A57A69 /* RootViewController.m in Sources */,
 				D44150D013CE73A000EF10D7 /* DetailViewController.m in Sources */,
 				D479FDA413CEB4B600D929BD /* CSVFile.m in Sources */,
@@ -208,12 +208,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D4CB3B5E13B8214700C4B9B3 /* FileViewController.xib */ = {
+		D4CB3B5E13B8214700C4B9B3 /* FileListViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D4CB3B5F13B8214700C4B9B3 /* en */,
 			);
-			name = FileViewController.xib;
+			name = FileListViewController.xib;
 			sourceTree = "<group>";
 		};
 		D4CB3B6713B8216500C4B9B3 /* MainWindow.xib */ = {

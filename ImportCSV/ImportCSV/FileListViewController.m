@@ -6,12 +6,12 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "FileViewController.h"
+#import "FileListViewController.h"
 
 #import "DetailViewController.h"
 #import "CSVFile.h"
 
-@implementation FileViewController;
+@implementation FileListViewController;
 
 - (void)viewDidLoad
 {

@@ -8,7 +8,7 @@
 
 #import "RootViewController.h"
 #import "ImportCSVAppDelegate.h"
-#import "FileViewController.h"
+#import "FileListViewController.h"
 
 @implementation RootViewController
 
@@ -56,7 +56,7 @@
 }
 
 - (IBAction)doImport:(id)sender {
-    FileViewController *vc = [[FileViewController alloc] initWithNibName:@"FileViewController" bundle:nil];
+    FileListViewController *vc = [[FileListViewController alloc] initWithNibName:@"FileViewController" bundle:nil];
     NSLog(@"%@", [self.navigationController class]);
     [self.navigationController pushViewController:vc animated:YES];
     [vc autorelease];
