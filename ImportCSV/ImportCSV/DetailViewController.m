@@ -41,7 +41,7 @@
     [super viewDidLoad];
 
     lineList = [[NSMutableArray alloc] init];
-    NSString *contents = [NSString stringWithContentsOfFile:self.cvsFile.path];
+    NSString *contents = [NSString stringWithContentsOfFile:self.cvsFile.path encoding:NSUTF8StringEncoding error:nil];
     [contents enumerateLinesUsingBlock:^(NSString *line, BOOL *stop){
         [lineList addObject:line];
     }];
