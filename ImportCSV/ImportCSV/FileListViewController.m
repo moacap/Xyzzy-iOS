@@ -8,7 +8,7 @@
 
 #import "FileListViewController.h"
 
-#import "DetailViewController.h"
+#import "FileViewController.h"
 #import "CSVFile.h"
 
 @implementation FileListViewController;
@@ -140,7 +140,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    DetailViewController *detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+    FileViewController *detailViewController = [[FileViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
     detailViewController.cvsFile = [cvsFileList objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];

@@ -6,9 +6,9 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "DetailViewController.h"
+#import "FileViewController.h"
 
-@implementation DetailViewController
+@implementation FileViewController
 
 @synthesize cvsFile;
 

@@ -10,7 +10,7 @@
 
 #import "CSVFile.h"
 
-@interface DetailViewController : UITableViewController {
+@interface FileViewController : UITableViewController {
     CSVFile *cvsFile;
     NSMutableArray *lineList;
 }
