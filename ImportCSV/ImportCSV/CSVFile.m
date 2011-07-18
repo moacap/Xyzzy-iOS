@@ -6,9 +6,9 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "CVSFile.h"
+#import "CSVFile.h"
 
-@implementation CVSFile
+@implementation CSVFile
 
 @synthesize path;
 

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface CVSFile : NSObject {
+@interface CSVFile : NSObject {
     NSString *path;
 }
 

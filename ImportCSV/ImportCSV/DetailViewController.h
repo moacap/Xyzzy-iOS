@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-#import "CVSFile.h"
+#import "CSVFile.h"
 
 @interface DetailViewController : UITableViewController {
-    CVSFile *cvsFile;
+    CSVFile *cvsFile;
     NSMutableArray *lineList;
 }
 
-@property (nonatomic,retain) CVSFile *cvsFile;
+@property (nonatomic,retain) CSVFile *cvsFile;
 
 @end

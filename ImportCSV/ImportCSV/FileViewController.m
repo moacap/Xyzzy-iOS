@@ -9,7 +9,7 @@
 #import "FileViewController.h"
 
 #import "DetailViewController.h"
-#import "CVSFile.h"
+#import "CSVFile.h"
 
 @implementation FileViewController;
 
@@ -35,7 +35,7 @@
         NSEnumerator *enumerator = [fileList objectEnumerator];
         NSString *file;
         while ((file = [enumerator nextObject])) {
-            [cvsFileList addObject:[[CVSFile alloc] initWithFile:[pathToDocuments stringByAppendingPathComponent:file]]];
+            [cvsFileList addObject:[[CSVFile alloc] initWithFile:[pathToDocuments stringByAppendingPathComponent:file]]];
         }
 
     }
